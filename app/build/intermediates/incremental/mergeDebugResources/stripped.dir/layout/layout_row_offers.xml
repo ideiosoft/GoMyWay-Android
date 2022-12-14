@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_4dp"
+        app:cardCornerRadius="@dimen/padding_5sp"
+        app:cardElevation="@dimen/margin_4dp" android:tag="layout/layout_row_offers_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_8dp">
+
+            <TextView
+                android:id="@+id/txt_offer_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/med"
+                android:gravity="left"
+                android:text="Latest offer"
+                android:textColor="@color/gray_d"
+                android:textSize="@dimen/text_size_13sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt_coupan_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:fontFamily="@font/med"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/black_regular"
+                android:textSize="@dimen/text_size_17sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:background="@color/gray" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Voucher Code:"
+                    android:textColor="@color/gray_d"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_coupan_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_8dp"
+                    android:layout_marginRight="@dimen/margin_8dp"
+                    android:background="@color/promo_bg"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/margin_8dp"
+                    android:paddingRight="@dimen/margin_8dp"
+                    android:textColor="@color/color_black_opaque"
+                    android:textSize="@dimen/text_size_17sp" />
+
+                <TextView
+                    android:id="@+id/txt_img_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_8dp"
+                    android:layout_marginRight="@dimen/margin_8dp"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_file_copy_24px"
+                    android:focusable="true"
+                    android:fontFamily="@font/regular"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="left"
+                    android:padding="@dimen/margin_6dp"
+                    android:textColor="@color/black_regular"
+                    android:textSize="@dimen/text_size_17sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+         

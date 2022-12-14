@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "/Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/8043047951a95494ad08aa0e7fe7fc7a/material-1.3.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    }
+                },
+                {
+                    "source": "/Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "332",
+                        "endColumns": "52",
+                        "endOffsets": "380"
+                    }
+                }
+            ]
+        }
+    ]
+}

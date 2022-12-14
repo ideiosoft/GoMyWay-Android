@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.ScreenInboxDetail">
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            android:src="@mipmap/back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Request Settings"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scroll_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_from_wall_10dp"
+                    android:background="@color/white_regular"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/margin_from_wall_8dp">
+
+                    <TextView
+                        android:id="@+id/txt_edit_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin_from_wall_8dp"
+                        android:drawableRight="@mipmap/arrow_right_24"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:paddingTop="@dimen/margin_from_wall_8dp"
+                        android:paddingBottom="@dimen/margin_from_wall_8dp"
+                        android:text="Edit Request"
+                        android:textColor="@color/color_black_opaque"
+                        android:textSize="@dimen/text_size_15sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <TextView
+                        android:id="@+id/txt_share_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawableRight="@mipmap/arrow_right_24"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+
+                        android:paddingTop="@dimen/margin_from_wall_8dp"
+                        android:paddingBottom="@dimen/margin_from_wall_8dp"
+                        android:text="Share Request"
+                        android:textColor="@color/color_black_opaque"
+                        android:textSize="@dimen/text_size_15sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+
+                    <TextView
+                        android:id="@+id/txt_post_new_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawableRight="@mipmap/arrow_right_24"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+
+                        android:paddingTop="@dimen/margin_from_wall_8dp"
+                        android:paddingBottom="@dimen/margin_from_wall_8dp"
+                        android:text="Post New Request"
+                        android:textColor="@color/color_black_opaque"
+                        android:textSize="@dimen/text_size_15sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+
+                    <TextView
+                        android:id="@+id/txt_delete_request"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawableRight="@mipmap/arrow_right_24"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+
+                        android:paddingTop="@dimen/margin_from_wall_8dp"
+                        android:paddingBottom="@dimen/margin_from_wall_8dp"
+                        android:text="Delete Request"
+                        android:textColor="@color/color_black_opaque"
+                        android:textSize="@dimen/text_size_15sp" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

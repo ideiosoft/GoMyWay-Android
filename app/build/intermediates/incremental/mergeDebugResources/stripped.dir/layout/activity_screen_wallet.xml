@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.menu.wallet.ScreenWallet">
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back__"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            app:srcCompat="@drawable/ic_arrow_back_" />
+
+        <TextView
+            android:id="@+id/txt_top_right_view_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin_from_wall_8dp"
+            android:clickable="true"
+            android:fontFamily="@font/med"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingTop="@dimen/margin_from_wall_4dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:paddingBottom="@dimen/margin_from_wall_4dp"
+            android:text="My Wallet Earning"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webview_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/white"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            app:srcCompat="@drawable/ic_arrow_back_" />
+
+        <TextView
+            android:id="@+id/txt_center_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/med"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Email Address"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_17sp" />
+
+        <TextView
+            android:id="@+id/txt_top_right_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:padding="@dimen/margin_from_wall_8dp"
+            android:text="CLOSE"
+            android:visibility="gone"
+            android:textColor="@color/gray_d"
+            android:textSize="@dimen/text_size_15sp" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

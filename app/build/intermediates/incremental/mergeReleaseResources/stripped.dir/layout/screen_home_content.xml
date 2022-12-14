@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg_clr"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".views.home.ScreenHome"
+    tools:showIn="@layout/screen_home">
+
+    <FrameLayout
+        android:id="@+id/frame_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view_line_separator"
+        android:layout_marginStart="@dimen/margin_from_wall_8dp"
+        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+        android:layout_marginBottom="@dimen/margin_from_wall_8dp" />
+
+
+    <View
+        android:id="@+id/view_line_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/nav_view"
+        android:background="@color/gray_btn_bg_color" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/white_regular"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp"
+        app:itemIconTint="@drawable/drawer_item"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <ImageView
+        android:id="@+id/img_center_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@mipmap/car_gray_72" />
+
+</RelativeLayout>

@@ -1,0 +1,1233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ssc.snow.app.gomyways"
+4    android:versionCode="11"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:10:5-79
+15-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:11:5-98
+16-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:11:22-95
+17
+18    <supports-screens
+18-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:13:5-17:39
+19        android:anyDensity="true"
+19-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:14:9-34
+20        android:largeScreens="true"
+20-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:15:9-36
+21        android:normalScreens="true"
+21-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:16:9-37
+22        android:smallScreens="true" />
+22-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:17:9-36
+23
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:19:5-81
+24-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:19:22-78
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:20:5-79
+25-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:20:22-76
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:21:5-66
+26-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:21:22-63
+27    <uses-permission android:name="android.permission.INTERNET" />
+27-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:22:5-67
+27-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:22:22-64
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:23:5-76
+28-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:23:22-73
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:24:5-80
+29-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:24:22-77
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:25:5-68
+30-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:25:22-65
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:26:5-81
+31-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:26:22-78
+32    <uses-permission android:name="android.permission.CAMERA" />
+32-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:27:5-65
+32-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:27:22-62
+33    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+33-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:28:5-71
+33-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:28:22-68
+34    <!--
+35    <uses-permission android:name="android.permission.READ_SMS" />
+36        <uses-permission android:name="android.permission.RECEIVE_SMS" />
+37        <uses-permission android:name="android.permission.READ_CALL_LOG" />
+38        <uses-permission android:name="android.permission.CALL_PHONE" />
+39        <uses-permission android:name="android.permission.READ_CONTACTS" />
+40    -->
+41    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:36:5-75
+41-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:36:22-72
+42    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+42-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:37:5-39:47
+42-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:38:9-57
+43    <uses-permission android:name="android.permission.READ_LOGS" />
+43-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:40:5-42:47
+43-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:41:9-52
+44
+45    <uses-feature
+45-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:44:5-46:35
+46        android:name="android.hardware.camera.any"
+46-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:45:9-51
+47        android:required="true" />
+47-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:46:9-32
+48    <uses-feature
+48-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:47:5-49:36
+49        android:name="android.hardware.camera"
+49-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:48:9-47
+50        android:required="false" />
+50-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:49:9-33
+51    <uses-feature
+51-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:50:5-52:36
+52        android:name="android.hardware.camera.autofocus"
+52-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:51:9-57
+53        android:required="false" />
+53-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:52:9-33
+54    <uses-feature
+54-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:53:5-55:36
+55        android:name="android.hardware.camera.flash"
+55-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:54:9-53
+56        android:required="false" />
+56-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:55:9-33
+57    <uses-feature
+57-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:56:5-58:36
+58        android:name="android.hardware.camera.front"
+58-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:57:9-53
+59        android:required="false" /> <!-- Require OpenGL ES >= 2.0. -->
+59-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:58:9-33
+60    <uses-feature
+60-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:59:5-61:35
+61        android:glEsVersion="0x00020000"
+61-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:60:9-41
+62        android:required="true" />
+62-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:61:9-32
+63
+64    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+64-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:63:5-65:47
+64-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:64:9-61
+65
+66    <queries>
+66-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:12:5-16:15
+67        <intent>
+67-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:13:9-15:18
+68            <action android:name="android.media.action.IMAGE_CAPTURE" />
+68-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:14:13-73
+68-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:14:21-70
+69        </intent>
+70    </queries>
+71    <queries>
+71-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:12:5-16:15
+72        <intent>
+73            <action android:name="android.speech.RecognitionService" />
+74        </intent>
+75    </queries>
+76
+77    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+77-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:22:5-24:30
+77-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:23:9-65
+78    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+78-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+78-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+79    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+79-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+79-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+80
+81    <application
+81-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:67:5-367:19
+82        android:name="ssc.snow.app.gomyways.views.MyApplication"
+82-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:68:9-44
+83        android:allowBackup="true"
+83-->[com.hbb20:ccp:2.2.3] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/16e3b4a2397eb1bd4f61476c21d129d6/jetified-ccp-2.2.3/AndroidManifest.xml:12:9-35
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.3.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/ecb0bafd7954a9ff1edb5985495d0423/core-1.3.1/AndroidManifest.xml:24:18-86
+85        android:debuggable="true"
+86        android:icon="@mipmap/app_icon_48"
+86-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:69:9-43
+87        android:label="@string/app_name"
+87-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:70:9-41
+88        android:roundIcon="@mipmap/app_icon_48"
+88-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:71:9-48
+89        android:supportsRtl="true"
+89-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:72:9-35
+90        android:testOnly="true"
+91        android:theme="@style/AppTheme"
+91-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:73:9-40
+92        android:usesCleartextTraffic="true" >
+92-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:74:9-44
+93        <activity
+93-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:79:9-85:70
+94            android:name="ssc.snow.app.gomyways.views.home.controler.menu.wallet.ScreenWallet"
+94-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:80:13-74
+95            android:exported="true"
+95-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:82:13-36
+96            android:label=""
+96-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:81:13-29
+97            android:launchMode="singleTask"
+97-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:83:13-44
+98            android:screenOrientation="portrait"
+98-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:84:13-49
+99            android:windowSoftInputMode="stateHidden|adjustResize" />
+99-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:85:13-67
+100
+101        <meta-data
+101-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:87:9-89:55
+102            android:name="com.facebook.sdk.ApplicationId"
+102-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:88:13-58
+103            android:value="@string/facebook_app_id" />
+103-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:89:13-52
+104
+105        <activity
+105-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:91:9-95:48
+106            android:name="com.facebook.FacebookActivity"
+106-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:93:13-57
+107            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+107-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:94:13-96
+108            android:exported="true"
+108-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:92:13-36
+109            android:label="@string/app_name"
+109-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:95:13-45
+110            android:theme="@style/com_facebook_activity_theme" />
+110-->[com.facebook.android:facebook-common:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fc468bdc70f9f804231fda6ae515bd02/jetified-facebook-common-5.0.2/AndroidManifest.xml:32:13-63
+111        <activity
+111-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:96:9-107:20
+112            android:name="com.facebook.CustomTabActivity"
+112-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:97:13-58
+113            android:exported="true" >
+113-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:98:13-36
+114            <intent-filter>
+114-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:99:13-106:29
+115                <action android:name="android.intent.action.VIEW" />
+115-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:100:17-69
+115-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:100:25-66
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:102:17-76
+117-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:102:27-73
+118                <category android:name="android.intent.category.BROWSABLE" />
+118-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:103:17-78
+118-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:103:27-75
+119
+120                <data android:scheme="@string/fb_login_protocol_scheme" />
+120-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:105:17-75
+120-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:105:23-72
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:108:9-113:70
+124            android:name="ssc.snow.app.gomyways.views.login.ActivityLoggedInAfterSignup"
+124-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:109:13-68
+125            android:label=""
+125-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:110:13-29
+126            android:launchMode="singleTask"
+126-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:111:13-44
+127            android:screenOrientation="portrait"
+127-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:112:13-49
+128            android:windowSoftInputMode="stateHidden|adjustResize" />
+128-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:113:13-67
+129        <activity
+129-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:114:9-119:70
+130            android:name="ssc.snow.app.gomyways.views.login.ScreenEnterMobileNumber"
+130-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:115:13-64
+131            android:label=""
+131-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:116:13-29
+132            android:launchMode="singleTask"
+132-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:117:13-44
+133            android:screenOrientation="portrait"
+133-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:118:13-49
+134            android:windowSoftInputMode="stateHidden|adjustResize" />
+134-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:119:13-67
+135
+136        <meta-data
+136-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:121:9-123:54
+137            android:name="com.google.firebase.messaging.default_notification_color"
+137-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:122:13-84
+138            android:resource="@color/colorPrimary" /> <!-- Todo: if you want to set channel id to subscribe topic -->
+138-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:123:13-51
+139        <meta-data
+139-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:124:9-126:71
+140            android:name="com.google.firebase.messaging.default_notification_channel_id"
+140-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:125:13-89
+141            android:value="@string/default_notification_channel_id" />
+141-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:126:13-68
+142
+143        <service
+143-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:128:9-135:19
+144            android:name="ssc.snow.app.gomyways.data.fcm.MyFirebaseMessagingService"
+144-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:130:13-64
+145            android:exported="true" >
+145-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:129:13-36
+146            <intent-filter>
+146-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:132:13-134:29
+147                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+147-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:17-78
+147-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:25-75
+148            </intent-filter>
+149        </service> <!-- End FCM -->
+150        <uses-library
+150-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:136:9-138:40
+151            android:name="org.apache.http.legacy"
+151-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:137:13-50
+152            android:required="false" />
+152-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:138:13-37
+153
+154        <activity
+154-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:140:9-146:70
+155            android:name="ssc.snow.app.gomyways.views.home.my_rides.ScreenMyRideDetail"
+155-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:141:13-67
+156            android:exported="true"
+156-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:143:13-36
+157            android:label=""
+157-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:142:13-29
+158            android:launchMode="singleTask"
+158-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:144:13-44
+159            android:screenOrientation="portrait"
+159-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:145:13-49
+160            android:windowSoftInputMode="stateHidden|adjustResize" />
+160-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:146:13-67
+161        <activity
+161-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:147:9-153:57
+162            android:name="ssc.snow.app.gomyways.views.home.controler.search.ScreenSearchDetailTrip"
+162-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:148:13-79
+163            android:exported="true"
+163-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:150:13-36
+164            android:label=""
+164-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:149:13-29
+165            android:launchMode="singleTask"
+165-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:151:13-44
+166            android:screenOrientation="portrait"
+166-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:152:13-49
+167            android:windowSoftInputMode="stateHidden" />
+167-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:153:13-54
+168        <!--
+169             The API key for Google Maps-based APIs is defined as a string resource.
+170             (See the file "res/values/google_maps_api.xml").
+171             Note that the API key is linked to the encryption key used to sign the APK.
+172             You need a different API key for each encryption key, including the release key that is used to
+173             sign the APK for publishing.
+174             You can define the keys for the debug and release targets in src/debug/ and src/release
+175        -->
+176        <meta-data
+176-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:162:9-164:55
+177            android:name="com.google.android.geo.API_KEY"
+177-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:163:13-58
+178            android:value="@string/google_maps_key" />
+178-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:164:13-52
+179
+180        <activity
+180-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:166:9-168:83
+181            android:name="ssc.snow.app.gomyways.views.home.my_trips.viewtrip.TripMapViewWithDirection"
+181-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:167:13-82
+182            android:label="@string/title_activity_trip_map_view_with_direction" />
+182-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:168:13-80
+183        <activity android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenEditPostedTrip" />
+183-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:169:9-92
+183-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:169:19-89
+184        <activity android:name="ssc.snow.app.gomyways.views.home.controler.menu.promotions.ScreenOffers" />
+184-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:170:9-87
+184-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:170:19-84
+185        <activity android:name="ssc.snow.app.gomyways.views.home.controler.menu.promotions.ScreenRewards" />
+185-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:171:9-88
+185-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:171:19-85
+186        <activity android:name="ssc.snow.app.gomyways.views.home.controler.menu.bank_details.ScreenBankDetails" />
+186-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:172:9-94
+186-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:172:19-91
+187        <activity
+187-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:173:9-175:59
+188            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+188-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:174:13-76
+189            android:theme="@style/Base.Theme.AppCompat" />
+189-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:175:13-56
+190        <activity
+190-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:176:9-181:57
+191            android:name="ssc.snow.app.gomyways.views.home.controler.profile.ScreenEditProfile"
+191-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:177:13-75
+192            android:label=""
+192-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:178:13-29
+193            android:launchMode="singleTask"
+193-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:179:13-44
+194            android:screenOrientation="portrait"
+194-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:180:13-49
+195            android:windowSoftInputMode="stateHidden" />
+195-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:181:13-54
+196        <activity
+196-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:182:9-187:57
+197            android:name="ssc.snow.app.gomyways.views.home.controler.search.SearchRide"
+197-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:183:13-67
+198            android:label=""
+198-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:184:13-29
+199            android:launchMode="singleTask"
+199-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:185:13-44
+200            android:screenOrientation="portrait"
+200-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:186:13-49
+201            android:windowSoftInputMode="stateHidden" />
+201-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:187:13-54
+202        <activity
+202-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:188:9-193:57
+203            android:name="ssc.snow.app.gomyways.views.home.controler.search.ScreenSearchResult"
+203-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:189:13-75
+204            android:label=""
+204-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:190:13-29
+205            android:launchMode="singleTask"
+205-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:191:13-44
+206            android:screenOrientation="portrait"
+206-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:192:13-49
+207            android:windowSoftInputMode="stateHidden" />
+207-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:193:13-54
+208        <activity
+208-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:194:9-199:57
+209            android:name="ssc.snow.app.gomyways.views.home.controler.search.ScreenSearchRideResult"
+209-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:195:13-79
+210            android:label=""
+210-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:196:13-29
+211            android:launchMode="singleTask"
+211-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:197:13-44
+212            android:screenOrientation="portrait"
+212-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:198:13-49
+213            android:windowSoftInputMode="stateHidden" />
+213-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:199:13-54
+214        <activity
+214-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:200:9-205:57
+215            android:name="ssc.snow.app.gomyways.views.home.controler.menu.about.ScreenAbout"
+215-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:201:13-72
+216            android:label=""
+216-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:202:13-29
+217            android:launchMode="singleTask"
+217-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:203:13-44
+218            android:screenOrientation="portrait"
+218-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:204:13-49
+219            android:windowSoftInputMode="stateHidden" />
+219-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:205:13-54
+220        <activity
+220-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:206:9-211:57
+221            android:name="ssc.snow.app.gomyways.views.home.controler.menu.help.ScreenHelp"
+221-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:207:13-70
+222            android:label=""
+222-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:208:13-29
+223            android:launchMode="singleTask"
+223-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:209:13-44
+224            android:screenOrientation="portrait"
+224-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:210:13-49
+225            android:windowSoftInputMode="stateHidden" />
+225-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:211:13-54
+226        <activity
+226-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:212:9-217:57
+227            android:name="ssc.snow.app.gomyways.views.home.controler.menu.payouts.ScreenPayoutsInMenu"
+227-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:213:13-82
+228            android:label=""
+228-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:214:13-29
+229            android:launchMode="singleTask"
+229-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:215:13-44
+230            android:screenOrientation="portrait"
+230-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:216:13-49
+231            android:windowSoftInputMode="stateHidden" />
+231-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:217:13-54
+232        <activity
+232-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:218:9-223:57
+233            android:name="ssc.snow.app.gomyways.views.home.controler.menu.notification.ScreenNotificationInMenu"
+233-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:219:13-92
+234            android:label=""
+234-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:220:13-29
+235            android:launchMode="singleTask"
+235-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:221:13-44
+236            android:screenOrientation="portrait"
+236-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:222:13-49
+237            android:windowSoftInputMode="stateHidden" />
+237-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:223:13-54
+238        <activity
+238-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:224:9-229:57
+239            android:name="ssc.snow.app.gomyways.views.home.controler.menu.idverification.ScreenIdVerification"
+239-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:225:13-90
+240            android:label=""
+240-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:226:13-29
+241            android:launchMode="singleTask"
+241-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:227:13-44
+242            android:screenOrientation="portrait"
+242-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:228:13-49
+243            android:windowSoftInputMode="stateHidden" />
+243-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:229:13-54
+244        <activity
+244-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:230:9-235:57
+245            android:name="ssc.snow.app.gomyways.views.home.controler.menu.ScreenMenu"
+245-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:231:13-65
+246            android:label=""
+246-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:232:13-29
+247            android:launchMode="singleTask"
+247-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:233:13-44
+248            android:screenOrientation="portrait"
+248-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:234:13-49
+249            android:windowSoftInputMode="stateHidden" />
+249-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:235:13-54
+250        <activity
+250-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:236:9-241:57
+251            android:name="ssc.snow.app.gomyways.views.home.controler.menu.email_verifications.ScreenEmailAddress"
+251-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:237:13-93
+252            android:label=""
+252-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:238:13-29
+253            android:launchMode="singleTask"
+253-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:239:13-44
+254            android:screenOrientation="portrait"
+254-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:240:13-49
+255            android:windowSoftInputMode="stateHidden" />
+255-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:241:13-54
+256        <activity
+256-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:242:9-247:57
+257            android:name="ssc.snow.app.gomyways.views.home.controler.profile.ScreenProfile"
+257-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:243:13-71
+258            android:label=""
+258-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:244:13-29
+259            android:launchMode="singleTask"
+259-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:245:13-44
+260            android:screenOrientation="portrait"
+260-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:246:13-49
+261            android:windowSoftInputMode="stateHidden" />
+261-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:247:13-54
+262        <activity
+262-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:248:9-253:57
+263            android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenRequestSetting"
+263-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:249:13-83
+264            android:label=""
+264-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:250:13-29
+265            android:launchMode="singleTask"
+265-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:251:13-44
+266            android:screenOrientation="portrait"
+266-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:252:13-49
+267            android:windowSoftInputMode="stateHidden" />
+267-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:253:13-54
+268        <activity
+268-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:254:9-259:57
+269            android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenRequestPosted"
+269-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:255:13-82
+270            android:label=""
+270-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:256:13-29
+271            android:launchMode="singleTask"
+271-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:257:13-44
+272            android:screenOrientation="portrait"
+272-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:258:13-49
+273            android:windowSoftInputMode="stateHidden" />
+273-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:259:13-54
+274        <activity
+274-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:260:9-265:57
+275            android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenPostARequest"
+275-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:261:13-81
+276            android:label=""
+276-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:262:13-29
+277            android:launchMode="singleTask"
+277-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:263:13-44
+278            android:screenOrientation="portrait"
+278-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:264:13-49
+279            android:windowSoftInputMode="stateHidden" />
+279-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:265:13-54
+280        <activity
+280-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:266:9-271:57
+281            android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenPostATrip"
+281-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:267:13-78
+282            android:label=""
+282-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:268:13-29
+283            android:launchMode="singleTask"
+283-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:269:13-44
+284            android:screenOrientation="portrait"
+284-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:270:13-49
+285            android:windowSoftInputMode="stateHidden" />
+285-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:271:13-54
+286        <activity
+286-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:272:9-277:57
+287            android:name="ssc.snow.app.gomyways.views.home.controler.post_request.ScreenPostOrRequestTrip"
+287-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:273:13-86
+288            android:label=""
+288-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:274:13-29
+289            android:launchMode="singleTask"
+289-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:275:13-44
+290            android:screenOrientation="portrait"
+290-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:276:13-49
+291            android:windowSoftInputMode="stateHidden" />
+291-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:277:13-54
+292        <activity
+292-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:278:9-283:57
+293            android:name="ssc.snow.app.gomyways.views.home.my_trips.viewtrip.ScreenViewTrip"
+293-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:279:13-72
+294            android:label=""
+294-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:280:13-29
+295            android:launchMode="singleTask"
+295-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:281:13-44
+296            android:screenOrientation="portrait"
+296-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:282:13-49
+297            android:windowSoftInputMode="stateHidden" />
+297-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:283:13-54
+298        <activity
+298-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:284:9-289:57
+299            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest6"
+299-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:285:13-70
+300            android:label=""
+300-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:286:13-29
+301            android:launchMode="singleTask"
+301-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:287:13-44
+302            android:screenOrientation="portrait"
+302-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:288:13-49
+303            android:windowSoftInputMode="stateHidden" />
+303-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:289:13-54
+304        <activity
+304-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:290:9-295:57
+305            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest5"
+305-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:291:13-70
+306            android:label=""
+306-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:292:13-29
+307            android:launchMode="singleTask"
+307-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:293:13-44
+308            android:screenOrientation="portrait"
+308-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:294:13-49
+309            android:windowSoftInputMode="stateHidden" />
+309-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:295:13-54
+310        <activity
+310-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:296:9-301:57
+311            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest4"
+311-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:297:13-70
+312            android:label=""
+312-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:298:13-29
+313            android:launchMode="singleTask"
+313-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:299:13-44
+314            android:screenOrientation="portrait"
+314-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:300:13-49
+315            android:windowSoftInputMode="stateHidden" />
+315-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:301:13-54
+316        <activity
+316-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:302:9-307:57
+317            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest3"
+317-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:303:13-70
+318            android:label=""
+318-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:304:13-29
+319            android:launchMode="singleTask"
+319-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:305:13-44
+320            android:screenOrientation="portrait"
+320-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:306:13-49
+321            android:windowSoftInputMode="stateHidden" />
+321-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:307:13-54
+322        <activity
+322-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:308:9-313:57
+323            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest2"
+323-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:309:13-70
+324            android:label=""
+324-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:310:13-29
+325            android:launchMode="singleTask"
+325-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:311:13-44
+326            android:screenOrientation="portrait"
+326-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:312:13-49
+327            android:windowSoftInputMode="stateHidden" />
+327-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:313:13-54
+328        <activity
+328-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:314:9-319:57
+329            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenBookToRequest"
+329-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:315:13-69
+330            android:label=""
+330-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:316:13-29
+331            android:launchMode="singleTask"
+331-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:317:13-44
+332            android:screenOrientation="portrait"
+332-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:318:13-49
+333            android:windowSoftInputMode="stateHidden" />
+333-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:319:13-54
+334        <activity
+334-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:320:9-325:57
+335            android:name="ssc.snow.app.gomyways.views.home.controler.ScreenInboxDetail"
+335-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:321:13-67
+336            android:label=""
+336-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:322:13-29
+337            android:launchMode="singleTask"
+337-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:323:13-44
+338            android:screenOrientation="portrait"
+338-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:324:13-49
+339            android:windowSoftInputMode="stateHidden" />
+339-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:325:13-54
+340        <activity
+340-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:326:9-339:20
+341            android:name="ssc.snow.app.gomyways.views.home.ScreenHome"
+341-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:327:13-50
+342            android:label=""
+342-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:328:13-29
+343            android:launchMode="singleTask"
+343-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:329:13-44
+344            android:screenOrientation="portrait"
+344-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:330:13-49
+345            android:windowSoftInputMode="stateHidden" >
+345-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:331:13-54
+346
+347            <!-- <intent-filter> -->
+348            <!-- <action android:name="android.intent.action.MAIN" /> -->
+349
+350
+351            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+352            <!-- </intent-filter> -->
+353        </activity>
+354        <activity
+354-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:340:9-344:57
+355            android:name="ssc.snow.app.gomyways.views.login.ScreenForgotPassword"
+355-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:341:13-61
+356            android:launchMode="singleTask"
+356-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:342:13-44
+357            android:screenOrientation="portrait"
+357-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:343:13-49
+358            android:windowSoftInputMode="stateHidden" />
+358-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:344:13-54
+359        <activity
+359-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:345:9-349:57
+360            android:name="ssc.snow.app.gomyways.views.login.ScreenRegister"
+360-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:346:13-55
+361            android:launchMode="singleTask"
+361-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:347:13-44
+362            android:screenOrientation="portrait"
+362-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:348:13-49
+363            android:windowSoftInputMode="stateHidden" />
+363-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:349:13-54
+364        <activity
+364-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:350:9-354:57
+365            android:name="ssc.snow.app.gomyways.views.login.ScreenLogin"
+365-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:351:13-52
+366            android:launchMode="singleTask"
+366-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:352:13-44
+367            android:screenOrientation="portrait"
+367-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:353:13-49
+368            android:windowSoftInputMode="stateHidden" />
+368-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:354:13-54
+369        <activity
+369-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:355:9-366:20
+370            android:name="ssc.snow.app.gomyways.views.SplashScreen"
+370-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:356:13-47
+371            android:exported="true"
+371-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:358:13-36
+372            android:launchMode="singleTask"
+372-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:357:13-44
+373            android:screenOrientation="portrait"
+373-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:359:13-49
+374            android:windowSoftInputMode="stateHidden" >
+374-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:360:13-54
+375            <intent-filter>
+375-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:361:13-365:29
+376                <action android:name="android.intent.action.MAIN" />
+376-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:362:17-69
+376-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:362:25-66
+377
+378                <category android:name="android.intent.category.LAUNCHER" />
+378-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:364:17-77
+378-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:364:27-74
+379            </intent-filter>
+380        </activity>
+381        <!-- Autocomplete -->
+382        <activity
+382-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:16:9-23:20
+383            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+383-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:17:13-91
+384            android:exported="false"
+384-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:18:13-37
+385            android:hardwareAccelerated="true"
+385-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:19:13-47
+386            android:label="@string/places_autocomplete_label"
+386-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:20:13-62
+387            android:theme="@style/PlacesAutocompleteThemeOverlay"
+387-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:21:13-66
+388            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+388-->[com.google.android.libraries.places:places:2.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b7ab26db78fb273ce0f1de3e20da3221/jetified-places-2.0.0/AndroidManifest.xml:22:13-71
+389        </activity>
+390        <activity android:name="com.facebook.CustomTabMainActivity" />
+390-->[com.facebook.android:facebook-common:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fc468bdc70f9f804231fda6ae515bd02/jetified-facebook-common-5.0.2/AndroidManifest.xml:33:9-71
+390-->[com.facebook.android:facebook-common:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fc468bdc70f9f804231fda6ae515bd02/jetified-facebook-common-5.0.2/AndroidManifest.xml:33:19-68
+391
+392        <provider
+392-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:27:9-36:20
+393            android:name="com.applozic.mobicomkit.uiwidgets.KmFileProvider"
+393-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:28:13-76
+394            android:authorities="ssc.snow.app.gomyways.provider"
+394-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:29:13-60
+395            android:exported="false"
+395-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:30:13-37
+396            android:grantUriPermissions="true" >
+396-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:31:13-47
+397            <meta-data
+397-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:33:13-35:61
+398                android:name="android.support.FILE_PROVIDER_PATHS"
+398-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:34:17-67
+399                android:resource="@xml/km_provider_paths" />
+399-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:35:17-58
+400        </provider>
+401
+402        <service
+402-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:38:9-45:19
+403            android:name="com.applozic.mobicomkit.uiwidgets.KmFirebaseMessagingService"
+403-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:39:13-88
+404            android:exported="true"
+404-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:40:13-36
+405            android:stopWithTask="false" >
+405-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:41:13-41
+406            <intent-filter>
+406-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:132:13-134:29
+407                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+407-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:17-78
+407-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:25-75
+408            </intent-filter>
+409        </service>
+410
+411        <activity
+411-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:47:9-53:34
+412            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+412-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:48:13-104
+413            android:configChanges="keyboardHidden|screenSize|locale|smallestScreenSize|screenLayout|orientation"
+413-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:49:13-113
+414            android:label="@string/app_name"
+414-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:50:13-45
+415            android:launchMode="singleTask"
+415-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:51:13-44
+416            android:theme="@style/ApplozicTheme" />
+416-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:52:13-49
+417        <activity
+417-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:54:9-59:58
+418            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.MobicomLocationActivity"
+418-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:55:13-107
+419            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"
+419-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:56:13-106
+420            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+420-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:57:13-118
+421            android:theme="@style/ApplozicTheme"
+421-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:58:13-49
+422            android:windowSoftInputMode="adjustResize" />
+422-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:59:13-55
+423        <activity
+423-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:60:9-72:20
+424            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.FullScreenImageActivity"
+424-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:61:13-107
+425            android:configChanges="keyboardHidden|orientation|screenSize"
+425-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:62:13-74
+426            android:label="Image"
+426-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:63:13-34
+427            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+427-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:64:13-118
+428            android:theme="@style/Applozic_FullScreen_Theme" >
+428-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:65:13-61
+429
+430            <!-- Parent activity meta-data to support API level 7+ -->
+431            <meta-data
+431-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:69:13-71:112
+432                android:name="android.support.PARENT_ACTIVITY"
+432-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:70:17-63
+433                android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+433-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:71:17-109
+434        </activity>
+435        <activity
+435-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:73:9-80:34
+436            android:name="com.applozic.mobicomkit.uiwidgets.conversation.richmessaging.webview.KmWebViewActivity"
+436-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:74:13-114
+437            android:configChanges="keyboardHidden|orientation|screenSize"
+437-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:75:13-74
+438            android:label="Image"
+438-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:76:13-34
+439            android:launchMode="singleTop"
+439-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:77:13-43
+440            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+440-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:78:13-118
+441            android:theme="@style/ApplozicTheme" />
+441-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:79:13-49
+442        <activity
+442-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:81:9-85:34
+443            android:name="com.applozic.mobicomkit.uiwidgets.kommunicate.activities.LeadCollectionActivity"
+443-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:82:13-107
+444            android:configChanges="keyboardHidden|orientation|screenSize"
+444-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:83:13-74
+445            android:theme="@style/ApplozicTheme" />
+445-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:84:13-49
+446        <activity
+446-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:86:9-96:20
+447            android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.MobiComAttachmentSelectorActivity"
+447-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:87:13-117
+448            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"
+448-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:88:13-106
+449            android:launchMode="singleTop"
+449-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:89:13-43
+450            android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"
+450-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:90:13-118
+451            android:theme="@style/ApplozicTheme"
+451-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:91:13-49
+452            android:windowSoftInputMode="stateHidden|adjustResize" >
+452-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:92:13-67
+453            <meta-data
+453-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:69:13-71:112
+454                android:name="android.support.PARENT_ACTIVITY"
+454-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:70:17-63
+455                android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+455-->[io.kommunicate.sdk:kommunicateui:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2604b2467e3ce3c50d4314b805ccd163/jetified-kommunicateui-2.5.1/AndroidManifest.xml:71:17-109
+456        </activity>
+457
+458        <meta-data
+458-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:30:9-33:34
+459            android:name="main_folder_name"
+459-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:31:13-44
+460            android:value="Kommunicate" />
+460-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:32:13-40
+461
+462        <service
+462-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:35:9-39:34
+463            android:name="com.applozic.mobicomkit.api.conversation.MessageIntentService"
+463-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:36:13-89
+464            android:exported="false"
+464-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:37:13-37
+465            android:permission="android.permission.BIND_JOB_SERVICE" />
+465-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:38:13-69
+466        <service
+466-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:40:9-44:34
+467            android:name="com.applozic.mobicomkit.api.conversation.ApplozicIntentService"
+467-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:41:13-90
+468            android:exported="false"
+468-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:42:13-37
+469            android:permission="android.permission.BIND_JOB_SERVICE" />
+469-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:43:13-69
+470        <service
+470-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:45:9-49:34
+471            android:name="com.applozic.mobicomkit.api.conversation.ApplozicMqttIntentService"
+471-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:46:13-94
+472            android:exported="false"
+472-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:47:13-37
+473            android:permission="android.permission.BIND_JOB_SERVICE" />
+473-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:48:13-69
+474        <service
+474-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:50:9-54:34
+475            android:name="com.applozic.mobicomkit.api.people.UserIntentService"
+475-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:51:13-80
+476            android:exported="false"
+476-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:52:13-37
+477            android:permission="android.permission.BIND_JOB_SERVICE" />
+477-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:53:13-69
+478        <service
+478-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:55:9-59:34
+479            android:name="com.applozic.mobicomkit.api.conversation.ConversationIntentService"
+479-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:56:13-94
+480            android:exported="false"
+480-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:57:13-37
+481            android:permission="android.permission.BIND_JOB_SERVICE" />
+481-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:58:13-69
+482
+483        <receiver
+483-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:61:9-69:20
+484            android:name="com.applozic.mobicomkit.broadcast.TimeChangeBroadcastReceiver"
+484-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:62:13-89
+485            android:exported="true" >
+485-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:63:13-36
+486            <intent-filter>
+486-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:65:13-68:29
+487                <action android:name="android.intent.action.TIME_SET" />
+487-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:66:17-73
+487-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:66:25-70
+488                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+488-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:67:17-81
+488-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:67:25-78
+489            </intent-filter>
+490        </receiver>
+491        <receiver
+491-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:70:9-79:20
+492            android:name="com.applozic.mobicomkit.broadcast.ConnectivityReceiver"
+492-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:71:13-82
+493            android:enabled="true"
+493-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:72:13-35
+494            android:exported="true" >
+494-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:73:13-36
+495            <intent-filter>
+495-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:75:13-78:29
+496                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+496-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:76:17-82
+496-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:76:25-79
+497                <action android:name="android.intent.action.BOOT_COMPLETED" />
+497-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:77:17-79
+497-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:77:25-76
+498            </intent-filter>
+499        </receiver>
+500
+501        <meta-data
+501-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:81:9-83:108
+502            android:name="activity.open.on.notification"
+502-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:82:13-57
+503            android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" />
+503-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:83:13-105
+504        <meta-data
+504-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:84:9-86:48
+505            android:name="com.package.name"
+505-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:85:13-44
+506            android:value="ssc.snow.app.gomyways" />
+506-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:86:13-45
+507        <meta-data
+507-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:87:9-89:59
+508            android:name="com.applozic.server.url"
+508-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:88:13-51
+509            android:value="https://chat.kommunicate.io" />
+509-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:89:13-56
+510        <meta-data
+510-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:90:9-92:62
+511            android:name="com.applozic.mqtt.server.url"
+511-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:91:13-56
+512            android:value="tcp://socket.applozic.com:8080" />
+512-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:92:13-59
+513        <meta-data
+513-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:93:9-95:42
+514            android:name="com.applozic.mobicomkit.notification.tone"
+514-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:94:13-69
+515            android:value="eventually" />
+515-->[io.kommunicate.sdk:kommunicate:2.5.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/2dc47b897014f48617dcc100f7745258/jetified-kommunicate-2.5.1/AndroidManifest.xml:95:13-39
+516
+517        <activity
+517-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+518            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+518-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+519            android:excludeFromRecents="true"
+519-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+520            android:exported="false"
+520-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+521            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+521-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+522        <!--
+523            Service handling Google Sign-In user revocation. For apps that do not integrate with
+524            Google Sign-In, this service will never be started.
+525        -->
+526        <service
+526-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+527            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+527-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+528            android:exported="true"
+528-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+529            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+529-->[com.google.android.gms:play-services-auth:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/1a9dbaa6e201138a8d983597c5a24eeb/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+530        <!--
+531             FirebaseMessagingService performs security checks at runtime,
+532             but set to not exported to explicitly avoid allowing another app to call it.
+533        -->
+534        <service
+534-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:28:9-34:19
+535            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+535-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:29:13-82
+536            android:exported="false" >
+536-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
+537            <intent-filter android:priority="-500" >
+537-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:132:13-134:29
+538                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+538-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:17-78
+538-->/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/AndroidManifest.xml:133:25-75
+539            </intent-filter>
+540        </service>
+541        <service
+541-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:35:9-41:19
+542            android:name="com.google.firebase.components.ComponentDiscoveryService"
+542-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:36:13-84
+543            android:directBootAware="true"
+543-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+544            android:exported="false" >
+544-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:37:13-37
+545            <meta-data
+545-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:38:13-40:85
+546                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+546-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:39:17-119
+547                android:value="com.google.firebase.components.ComponentRegistrar" />
+547-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/0b8dc16e81333526441eee6f5cf9ea75/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:40:17-82
+548            <meta-data
+548-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a08b4e2265d2bc5553d1de8ba7eb1623/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+549                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+549-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a08b4e2265d2bc5553d1de8ba7eb1623/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+550                android:value="com.google.firebase.components.ComponentRegistrar" />
+550-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a08b4e2265d2bc5553d1de8ba7eb1623/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+551            <meta-data
+551-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+552                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+552-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+553                android:value="com.google.firebase.components.ComponentRegistrar" />
+553-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+554            <meta-data
+554-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b0f09989f804f7eb2ad928d902cfe667/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+555                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+555-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b0f09989f804f7eb2ad928d902cfe667/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+556                android:value="com.google.firebase.components.ComponentRegistrar" />
+556-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b0f09989f804f7eb2ad928d902cfe667/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+557        </service>
+558
+559        <meta-data
+559-->[com.google.maps.android:android-maps-utils:0.5] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/61276de791b682e8c3e5bc080a685fed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+560            android:name="com.google.android.gms.version"
+560-->[com.google.maps.android:android-maps-utils:0.5] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/61276de791b682e8c3e5bc080a685fed/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+561            android:value="@integer/google_play_services_version" />
+561-->[com.google.maps.android:android-maps-utils:0.5] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/61276de791b682e8c3e5bc080a685fed/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+562
+563        <provider
+563-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e260290c4d0c7c28b918bc88407ef83c/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+564            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+564-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e260290c4d0c7c28b918bc88407ef83c/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+565            android:authorities="ssc.snow.app.gomyways.lifecycle-process"
+565-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e260290c4d0c7c28b918bc88407ef83c/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+566            android:exported="false"
+566-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e260290c4d0c7c28b918bc88407ef83c/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+567            android:multiprocess="true" />
+567-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e260290c4d0c7c28b918bc88407ef83c/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+568        <!--
+569         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+570         with the application context. This config is merged in with the host app's manifest,
+571         but there can only be one provider with the same authority activated at any given
+572         point; so if the end user has two or more different apps that use Facebook SDK, only the
+573         first one will be able to use the provider. To work around this problem, we use the
+574         following placeholder in the authority to identify each host application as if it was
+575         a completely different provider.
+576        -->
+577        <provider
+577-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:39:9-42:40
+578            android:name="com.facebook.internal.FacebookInitProvider"
+578-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:40:13-70
+579            android:authorities="ssc.snow.app.gomyways.FacebookInitProvider"
+579-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:41:13-72
+580            android:exported="false" />
+580-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:42:13-37
+581
+582        <receiver
+582-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:44:9-50:20
+583            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+583-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:45:13-86
+584            android:exported="false" >
+584-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:46:13-37
+585            <intent-filter>
+585-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:47:13-49:29
+586                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+586-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:48:17-95
+586-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:48:25-92
+587            </intent-filter>
+588        </receiver>
+589        <receiver
+589-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:51:9-58:20
+590            android:name="com.facebook.CampaignTrackingReceiver"
+590-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:52:13-65
+591            android:exported="true"
+591-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:53:13-36
+592            android:permission="android.permission.INSTALL_PACKAGES" >
+592-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:54:13-69
+593            <intent-filter>
+593-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:55:13-57:29
+594                <action android:name="com.android.vending.INSTALL_REFERRER" />
+594-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:56:17-79
+594-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:56:25-76
+595            </intent-filter>
+596        </receiver>
+597        <receiver
+597-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+598            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+598-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+599            android:enabled="true"
+599-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+600            android:exported="false" >
+600-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+601        </receiver>
+602        <receiver
+602-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+603            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+603-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+604            android:enabled="true"
+604-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+605            android:exported="true"
+605-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+606            android:permission="android.permission.INSTALL_PACKAGES" >
+606-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+607            <intent-filter>
+607-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:55:13-57:29
+608                <action android:name="com.android.vending.INSTALL_REFERRER" />
+608-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:56:17-79
+608-->[com.facebook.android:facebook-core:5.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/b33840357323ef4c5286c6b462eeb91a/jetified-facebook-core-5.0.2/AndroidManifest.xml:56:25-76
+609            </intent-filter>
+610        </receiver>
+611
+612        <service
+612-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+613            android:name="com.google.android.gms.measurement.AppMeasurementService"
+613-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+614            android:enabled="true"
+614-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+615            android:exported="false" />
+615-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+616        <service
+616-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+617            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+617-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+618            android:enabled="true"
+618-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+619            android:exported="false"
+619-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+620            android:permission="android.permission.BIND_JOB_SERVICE" />
+620-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/092c8f00c43a66e7d160fd76ebc31b38/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+621
+622        <receiver
+622-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+623            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+623-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+624            android:exported="true"
+624-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+625            android:permission="com.google.android.c2dm.permission.SEND" >
+625-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+626            <intent-filter>
+626-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+627                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+627-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+627-->[com.google.firebase:firebase-iid:20.0.2] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/5265d15cd125e08df98c2b003be42ad0/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+628            </intent-filter>
+629        </receiver>
+630
+631        <activity
+631-->[com.google.android.gms:play-services-base:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a2f07d69010426c265604a0059ef8264/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+632            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+632-->[com.google.android.gms:play-services-base:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a2f07d69010426c265604a0059ef8264/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+633            android:exported="false"
+633-->[com.google.android.gms:play-services-base:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a2f07d69010426c265604a0059ef8264/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+634            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+634-->[com.google.android.gms:play-services-base:17.0.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/a2f07d69010426c265604a0059ef8264/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+635
+636        <provider
+636-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+637            android:name="com.google.firebase.provider.FirebaseInitProvider"
+637-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+638            android:authorities="ssc.snow.app.gomyways.firebaseinitprovider"
+638-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+639            android:exported="false"
+639-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+640            android:initOrder="100" />
+640-->[com.google.firebase:firebase-common:19.3.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/e550bc3fe2f4303ab304a0865687ede6/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+641
+642        <service
+642-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+643            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+643-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+644            android:exported="false" >
+644-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+645            <meta-data
+645-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+646                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+646-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+647                android:value="cct" />
+647-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fa3232afe2fe5fe33bee9dc3655ca9af/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+648        </service>
+649        <service
+649-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+650            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+650-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+651            android:exported="false"
+651-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+652            android:permission="android.permission.BIND_JOB_SERVICE" >
+652-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+653        </service>
+654
+655        <receiver
+655-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+656            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+656-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+657            android:exported="false" />
+657-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/gauravhasija/.gradle/caches/transforms-2/files-2.1/fe12a81f8384f7773e129e87baa67fba/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+658    </application>
+659
+660</manifest>

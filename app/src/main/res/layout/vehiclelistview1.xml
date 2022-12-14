@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:fontFamily="@font/med"
+        android:text="Search vehicle"
+        android:gravity="center"
+        android:textColor="@color/black_regular"
+        android:textSize="@dimen/text_size_17sp" />
+    <EditText
+        android:id="@+id/EditBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8dp"
+        android:background="@drawable/square_stroke_edt_"
+        android:hint="@string/select_vehicle"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="@dimen/small_padding"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_15sp" />
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice" />
+</LinearLayout>

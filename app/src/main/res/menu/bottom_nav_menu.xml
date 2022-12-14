@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@mipmap/more_24"
+        android:title="MORE" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/noti_24"
+        android:title="NOTIFICATIONS" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:visible="true"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_msg"
+        android:icon="@mipmap/message_gray_24"
+        android:title="MESSAGES" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@mipmap/single_user_24"
+        android:title="PROFILE" />
+
+
+</menu>

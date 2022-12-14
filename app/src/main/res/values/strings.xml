@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">GoMyWayRide</string>
+    <string name="ok">OK</string>
+    <string name="warning">Warninig</string>
+    <string name="forgot_text_">Enter your email address below to receive reset password instructions.</string>
+    <string name="title_activity_screen_home">ScreenHome</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="change">Change</string>
+    <string name="verify_proceed"><![CDATA[Verify & Proceed]]></string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP sent to</string>
+    <string name="don_t_receive_the_otp">Didn\'t receive the OTP ?</string>
+    <string name="resend_otp">RESEND OTP</string>
+
+    <string name="it_s_urgent">It\'s urgent</string>
+    <string name="please_choose_an_option_that_best_describes_your">Please choose an option that best describes your urgent inquiry</string>
+    <string name="my_driver_or_passenger_isn_t_responding">My driver or passenger isn\'t responding</string>
+    <string name="my_driver_didn_t_show_up">My driver didn\'t show up</string>
+    <string name="my_passenger_didn_t_show_up">My passenger didn\'t show up</string>
+    <string name="the_driver_cancelled_and_i_d_like_a_refund">The driver cancelled and i\'d like a refund</string>
+    <string name="i_want_to_report_abuse_or_a_scam">I want to report abuse or a scam</string>
+    <string name="i_have_safety_concerns">I have safety concerns</string>
+    <string name="it_s_something_else">It\'s something else</string>
+    <string name="payments">Payments</string>
+    <string name="i_was_charged_but_didn_t_get_a_ride">I was charged but didn\'t get a ride</string>
+    <string name="i_have_not_received_my_refund">I have not received my refund</string>
+    <string name="can_i_pay_without_a_credit_card">Can I pay without a credit card?</string>
+    <string name="can_i_pay_a_cash">Can I pay a cash?</string>
+    <string name="filter_by_date">Filter by Date:</string>
+    <string name="mobile_notifications">Mobile notifications</string>
+    <string name="email_notifications">Email notifications</string>
+    <string name="product_notifications">Product notifications</string>
+    <string name="push_notifications">Push notifications</string>
+    <string name="sms_messages">SMS messages</string>
+    <string name="product_emails_new_messages_bookings_etc">Product emails (new messages, bookings, etc)</string>
+    <string name="marketing_emails_newsletters_promos_etc">Marketing emails (news letters, promos, etc)</string>
+    <string name="auto_requests">Auto-requests</string>
+    <string name="receive_a_verification_badge">Receive a verification badge on your profile to get more bookings by increasing trust with other members</string>
+    <string name="_1_enter_your_name_as_it_appears_on_your_id">1. Enter your name as it appears on your ID</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="upload_a_photo_id">2. Upload a photo ID</string>
+    <string name="please_upload_a_scan_photo_of_your_passport">Please upload a scan photo of your passport,driver\'s license or national ID card</string>
+    <string name="upload_photo_id">+ Upload photo ID</string>
+    <string name="your_id_will_be_destroyed_from_our_servers_after_it_has_been_verified">Your ID will be destroyed from our servers after it has been verified</string>
+    <string name="submit_verification">Submit Verification</string>
+    <string name="profile_setting">Profile Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="id_verfication">ID Verfication</string>
+
+    <string name="payouts">Payouts</string>
+    <string name="help">Help</string>
+    <string name="refer_your_friends">Refer Your Friends</string>
+    <string name="about">About</string>
+    <string name="the_following_email_addresses_are_associated_with_your_account">The following email addresses are associated with your account</string>
+    <string name="primary">Primary</string>
+    <string name="verified">Verified</string>
+    <string name="add_another_email">+ Add another email</string>
+    <string name="hide">Hide email</string>
+    <string name="close">close</string>
+    <string name="close_">CLOSE</string>
+    <string name="i_want_to_take_a_ride">"I want to take a ride"</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="government_issued_id">Government issued ID</string>
+    <string name="upcoming_requests_2">Upcoming Requests</string>
+
+    <string name="field_cnt_empty">Field can\'t be empty</string>
+    <string name="provide_internet">Please provide internet</string>
+    <string name="phone_no">Phone No</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="vehicle_type">Type:</string>
+    <string name="vehicle_model">Model:</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="model">Model</string>
+    <string name="eg_pb_35r_4421">Eg. PB 35R 4421</string>
+    <string name="vehicle_image">Vehicle Image</string>
+    <string name="submit">Submit</string>
+    <string name="plate">PLATE</string>
+    <string name="add_email">Add Email</string>
+    <string name="make_primary">Make Primary</string>
+    <string name="delete">Delete</string>
+    <string name="email_verifications">Email Verifications</string>
+    <string name="re_send_verification">Re-Send Verification</string>
+    <string name="preview">Preview</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="name_on_card">Name on Card:</string>
+    <string name="card_type">Card Type:</string>
+    <string name="card_number">Card number:</string>
+    <string name="expires">Expires:</string>
+    <string name="saved_cards">Saved Cards</string>
+    <string name="expiry_date">Expiry Month</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="cvv">Cvv:</string>
+    <string name="add_card">Add Card</string>
+    <string name="promotions">Promotions</string>
+    <string name="rewards">Rewards</string>
+    <string name="offers">Offers</string>
+    <string name="refers">Refers</string>
+    <string name="about_us">About Us</string>
+    <string name="title_activity_trip_map_view_with_direction">Map</string>
+    <string name="route">Route</string>
+    <string name="edit_trip">Edit trip</string>
+    <string name="mark_as_complete">Mark as complete</string>
+    <string name="cancel_trip">Cancel trip</string>
+    <string name="delete_trip">Delete trip</string>
+    <string name="share_trip">Share trip</string>
+    <string name="edit_price">Edit price</string>
+
+
+    <string name="default_notification_channel_id">default</string>
+    <string name="need_to_rate">You need to rate before submit!</string>
+    <string name="enter_bvn">Enter BVN</string>
+    <string name="bank_verification_number_bvn">Bank Verification Number(BVN)</string>
+    <string name="bvn">BVV:</string>
+
+
+    <string name="facebook_app_id">457485991858801</string>
+    <string name="fb_login_protocol_scheme">fb457485991858801</string>
+    <string name="wallet_earning">Wallet Earning</string>
+    <string name="save_bank_detail">Save bank detail</string>
+    <string name="bank_account_number">Bank account number</string>
+    <string name="bank_account_code">Bank account code</string>
+    <string name="bank_name">Bank name</string>
+    <string name="your_name">your name</string>
+    <string name="dnd_text">The solution to Do-Not-Disturb (DND) which blocks GSM phone number from receiving bulk SMS messages is specified here if you do not get \'OTP\' on your phone number.\nSimply follow the information as provided below by GSM operators in Nigeria.\nTo deactivate DND on 9mobile (Etisalat) number, Text START to 2442.\nTo deactivate DND on MTN number, Text ALLOW to 2442.\nTo deactivate DND on Glo number, Text CANCEL to 2442.\nTo deactivate DND on Airtel number, Text ALLOW to 2442.\nDND deactivation takes 24 hours to complete the process. In other words, you will start receiving bulk SMS messages from bulk SMS websites 24 hours after following the deactivation process.\nBased on our experience, you may have to switch off your mobile phone and remove the SIM card. You can switch it ON immediately and insert the SIM card. After then, you wait for 24 hours as stated above.\nHowever, the good news is that you can still confirm by sending STATUS to 2442 to know if your number is on DND or not.</string>
+    <string name="enter_the_otp_sent_to_email">Enter the OTP sent to email</string>
+    <string name="share">Share</string>
+
+
+</resources>

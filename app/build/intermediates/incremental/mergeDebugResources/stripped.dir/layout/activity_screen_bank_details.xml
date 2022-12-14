@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.menu.bank_details.ScreenBankDetails">
+
+    <include layout="@layout/toolbar_child" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_d" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/your_name"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <EditText
+                android:id="@+id/edt_yn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:background="@drawable/square_stroke_edt_"
+                android:hint="@string/your_name"
+                android:inputType="text"
+                android:maxLength="26"
+                android:maxLines="1"
+                android:padding="@dimen/small_padding"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/bank_account_number"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <EditText
+                android:id="@+id/edt_ban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:background="@drawable/square_stroke_edt_"
+                android:hint="@string/bank_account_number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="@dimen/small_padding"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/bank_name"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/edt_bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_6dp"
+                android:background="@drawable/square_stroke_edt_"
+                android:clickable="true"
+                android:drawableRight="@drawable/ccp_down_arrow"
+                android:focusable="false"
+                android:hint="@string/bank_name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="@dimen/small_padding"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <!--            <TextView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="@dimen/margin_10dp"-->
+            <!--                android:layout_marginRight="@dimen/margin_6dp"-->
+            <!--                android:fontFamily="@font/regular"-->
+            <!--                android:text="@string/expiry_date"-->
+            <!--                android:textColor="@color/color_black"-->
+            <!--                android:textSize="@dimen/text_size_15sp" />-->
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="horizontal">-->
+
+            <!--                <AutoCompleteTextView-->
+            <!--                    android:id="@+id/edt_exp_month"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginRight="@dimen/margin_6dp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:background="@drawable/square_stroke_edt_"-->
+            <!--                    android:drawableRight="@drawable/ccp_down_arrow"-->
+            <!--                    android:hint="@string/month"-->
+            <!--                    android:inputType="text"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:padding="@dimen/small_padding"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="@dimen/text_size_15sp" />-->
+
+            <!--                <AutoCompleteTextView-->
+            <!--                    android:id="@+id/edt_exp_year"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginLeft="@dimen/margin_6dp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:background="@drawable/square_stroke_edt_"-->
+            <!--                    android:drawableRight="@drawable/ccp_down_arrow"-->
+            <!--                    android:hint="@string/year"-->
+            <!--                    android:inputType="number"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:padding="@dimen/small_padding"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="@dimen/text_size_15sp" />-->
+
+
+            <!--            </LinearLayout>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="@dimen/margin_10dp"-->
+            <!--                android:fontFamily="@font/regular"-->
+            <!--                android:gravity="left"-->
+            <!--                android:text="@string/cvv"-->
+            <!--                android:textColor="@color/color_black"-->
+            <!--                android:textSize="@dimen/text_size_15sp" />-->
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/edt_cvv"-->
+            <!--                android:layout_width="150dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:background="@drawable/square_stroke_edt_"-->
+            <!--                android:gravity="left"-->
+            <!--                android:hint="@string/cvv"-->
+            <!--                android:inputType="numberPassword"-->
+            <!--                android:maxLength="4"-->
+            <!--                android:padding="@dimen/padding_5sp"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="@dimen/text_size_15sp" />-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:fontFamily="@font/regular"
+                android:gravity="left"
+                android:text="@string/bank_verification_number_bvn"
+                android:textColor="@color/color_black"
+                android:textSize="@dimen/text_size_15sp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edt_bvn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/square_stroke_edt_"
+                android:gravity="left"
+                android:hint="@string/enter_bvn"
+                android:padding="@dimen/padding_5sp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_15sp"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/btn_add_bd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:background="@drawable/square_solid_red"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingLeft="@dimen/margin_16dp"
+                android:paddingRight="@dimen/margin_16dp"
+                android:text="@string/save_bank_detail"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_17sp"
+                android:textStyle="bold" />
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="@dimen/margin_10dp"-->
+            <!--                android:fontFamily="@font/med"-->
+            <!--                android:gravity="left"-->
+            <!--                android:padding="@dimen/margin_2dp"-->
+            <!--                android:text="@string/saved_cards"-->
+            <!--                android:textColor="@color/gray_d"-->
+            <!--                android:textSize="@dimen/text_size_17sp" />-->
+
+            <!--            <View-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1px"-->
+            <!--                android:background="@color/gray_d" />-->
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/recycle_save_cards"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="@dimen/margin_8dp"-->
+            <!--                android:layout_marginBottom="@dimen/margin_16dp" />-->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

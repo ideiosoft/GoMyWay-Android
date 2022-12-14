@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_regular"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:fontFamily="@font/med"
+        android:text="Add another vehicle"
+        android:textColor="@color/black_regular"
+        android:textSize="@dimen/text_size_17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:text="Select Vehicle"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <TextView
+            android:id="@+id/txt_recent_searches"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:text="Vehicle Type"
+            android:textColor="@color/color_black_opaque"
+            android:textSize="@dimen/text_size_15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_vehicle_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:background="@drawable/square_stroke_edt_"
+            android:clickable="true"
+            android:drawableRight="@drawable/ccp_down_arrow"
+            android:hint="@string/select_vehicle"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/small_padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_vehicle_type_auto_complete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:background="@drawable/square_stroke_edt_"
+            android:clickable="true"
+            android:focusable="false"
+            android:drawableRight="@drawable/ccp_down_arrow"
+            android:hint="@string/vehicle_type"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/small_padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:text="@string/vehicle_model"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="left"
+            android:text="@string/plate_number"
+            android:textColor="@color/color_black_opaque"
+            android:textSize="@dimen/text_size_15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_vehicle_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:background="@drawable/square_stroke_edt_"
+            android:hint="@string/model"
+            android:inputType="phone"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:padding="@dimen/small_padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <EditText
+            android:id="@+id/edt_plate_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_6dp"
+            android:layout_weight="1"
+            android:background="@drawable/square_stroke_edt_"
+            android:hint="@string/eg_pb_35r_4421"
+            android:inputType="textPostalAddress"
+            android:maxLines="1"
+            android:padding="@dimen/small_padding"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/vehicle_image"
+        android:textColor="@color/black_regular"
+        android:textSize="@dimen/text_size_15sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Left Side"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image2"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Right side"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image3"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Front"
+
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image4"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Back"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image5"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Interior"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frame_vehicle_image6"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:background="@drawable/stroke_dotted_lines"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="+ Optional"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <ImageView
+                    android:id="@+id/img_vehicle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/trans_success_stroke_color" />
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/btn_submit_vehicle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:background="@drawable/square_solid_red"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

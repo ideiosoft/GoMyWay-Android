@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".modules_.home.ui.ScreenInboxDetail">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            app:srcCompat="@drawable/ic_arrow_back_" />
+
+        <TextView
+            android:id="@+id/txt_center_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Find a Trip"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frame_map"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_regular"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_8dp">
+
+
+                <EditText
+                    android:id="@+id/edt_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_4dp"
+                    android:background="@drawable/square_stroke"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/maker_blue_18"
+                    android:drawablePadding="@dimen/margin_8dp"
+                    android:focusable="false"
+                    android:fontFamily="@font/regular"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:hint="From"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/small_padding"
+                    android:textColor="@color/black_regular"
+                    android:textColorHint="#746F6F"
+                    android:textSize="@dimen/text_size_15sp" />
+
+
+                <EditText
+                    android:id="@+id/edt_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:background="@drawable/square_stroke"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/marker_green_18"
+                    android:drawablePadding="@dimen/margin_8dp"
+                    android:focusable="false"
+                    android:fontFamily="@font/regular"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:hint="To"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/small_padding"
+                    android:textColor="@color/black_regular"
+                    android:textColorHint="#746F6F"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <EditText
+
+                    android:id="@+id/edt_leaving_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:background="@drawable/square_stroke"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/cal"
+                    android:drawablePadding="@dimen/margin_8dp"
+                    android:focusable="false"
+                    android:hint="Leaving (Optional)"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:padding="@dimen/small_padding"
+                    android:textColor="@color/black_regular"
+                    android:textColorHint="#746F6F"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/btn_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_16dp"
+                    android:background="@drawable/solid_round_primary"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_from_wall_10dp"
+                    android:text="SEARCH"
+                    android:textColor="@color/white_regular"
+                    android:textSize="@dimen/text_size_15sp" />
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_regular"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_8dp">
+
+
+                <TextView
+                    android:id="@+id/txt_recent_searches"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/med"
+                    android:gravity="left"
+                    android:padding="@dimen/small_padding"
+                    android:text="Recent Searches"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:background="@color/gray_btn_bg_color" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycle_recent_searches"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

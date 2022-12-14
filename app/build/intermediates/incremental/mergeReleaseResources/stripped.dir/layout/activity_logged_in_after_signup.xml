@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.login.ScreenForgotPassword">
+
+    <ScrollView
+        android:id="@+id/scroll_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/login_bg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/margin_from_wall_48"
+                    android:src="@drawable/mlogo_white" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:paddingLeft="@dimen/margin_from_wall_16dp"
+                android:paddingRight="@dimen/margin_from_wall_16dp">
+
+                <TextView
+                    android:id="@+id/txt_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/padding_5sp"
+                    android:text="Logout"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/med"
+                    android:gravity="center"
+                    android:padding="@dimen/small_padding"
+                    android:text="Verify your email"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_17sp" />
+
+                <TextView
+                    android:id="@+id/txt_need_to_verified"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_5sp"
+                    android:text="Email Verification sent successfully to your email 'sukihwant.singh@hotmail.com' "
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_5sp"
+                    android:text="Please verify your email we have sent you"
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_5sp"
+                    android:text="OR"
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp" />
+
+
+                <TextView
+                    android:id="@+id/btn_send_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_from_wall_24dp"
+                    android:background="@drawable/solid_round_primary"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_from_wall_10dp"
+                    android:text="Resend Verification Again"
+                    android:textColor="@color/white_regular"
+                    android:textSize="@dimen/text_size_15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

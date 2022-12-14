@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg_clr"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.ScreenInboxDetail">
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:background="@color/white_regular"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            app:srcCompat="@drawable/ic_arrow_back_" />
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:fontFamily="@font/regular"
+            android:text="Chat"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txt_top_right_view_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin_from_wall_8dp"
+            android:background="@drawable/solid_round_gray_"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingTop="@dimen/margin_from_wall_4dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:paddingBottom="@dimen/margin_from_wall_4dp"
+            android:text="View Trip"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_13sp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_top"
+        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+        android:background="@color/white_regular"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_user"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/profile_img"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="@dimen/margin_from_wall_2dp" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_from_wall_8dp"
+            android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:layout_toStartOf="@+id/txt_seats"
+            android:layout_toLeftOf="@+id/txt_seats"
+            android:layout_toEndOf="@+id/img_user"
+            android:layout_toRightOf="@+id/img_user"
+            android:fontFamily="@font/regular"
+            android:gravity="left"
+            android:text="Sneha Sharma"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <TextView
+            android:id="@+id/txt_seats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:fontFamily="@font/regular"
+            android:text="1 Seat"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_seats"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:fontFamily="@font/regular"
+            android:text="$350"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size_15sp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/txt_source_to_destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_name"
+            android:layout_alignStart="@+id/txt_name"
+            android:layout_alignLeft="@+id/txt_name"
+            android:layout_marginTop="@dimen/margin_from_wall_4dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:layout_toStartOf="@+id/txt_seats"
+            android:layout_toLeftOf="@+id/txt_seats"
+            android:drawablePadding="@dimen/margin_from_wall_8dp"
+            android:fontFamily="@font/regular"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:text="Chandigarh to delhi"
+            android:textColor="@color/color_black_opaque"
+            android:textSize="@dimen/text_size_11sp" />
+
+        <TextView
+            android:id="@+id/txt_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_source_to_destination"
+            android:layout_alignStart="@+id/txt_name"
+            android:layout_alignLeft="@+id/txt_name"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+            android:layout_toStartOf="@+id/txt_seats"
+            android:layout_toLeftOf="@+id/txt_seats"
+            android:drawablePadding="@dimen/margin_from_wall_8dp"
+            android:fontFamily="@font/regular"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:text="Sun, Aug 24 at 12pm"
+            android:textColor="@color/gray_d"
+            android:textSize="@dimen/text_size_11sp" />
+
+
+        <TextView
+            android:id="@+id/textView_request_to_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_date_time"
+            android:layout_alignEnd="@+id/txt_seats"
+            android:layout_alignRight="@+id/txt_seats"
+            android:layout_marginTop="@dimen/margin_from_wall_4dp"
+            android:layout_marginBottom="@dimen/margin_from_wall_10dp"
+            android:background="@drawable/solid_round_primary"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingTop="@dimen/margin_from_wall_8dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:paddingBottom="@dimen/margin_from_wall_8dp"
+            android:text="Request to Book"
+            android:textColor="@color/color_white"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rel_bottom"
+        android:layout_below="@+id/rel_2"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_8dp"
+            android:background="@color/white_regular"
+            android:paddingLeft="@dimen/margin_from_wall_8dp"
+            android:paddingRight="@dimen/margin_from_wall_8dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/margin_from_wall_4dp"
+        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+        android:layout_marginBottom="@dimen/margin_from_wall_8dp"
+        android:clickable="true"
+            android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginRight="@dimen/margin_from_wall_4dp"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:background="@drawable/square_solid_chat"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_message_"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_solid_chat"
+                android:hint="Type message here..."
+                android:imeActionLabel="Done"
+                android:imeOptions="actionDone"
+                android:paddingLeft="@dimen/padding_5sp"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_15sp" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/color_white"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_10dp"
+            android:src="@mipmap/send_24"
+            android:text="Send" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

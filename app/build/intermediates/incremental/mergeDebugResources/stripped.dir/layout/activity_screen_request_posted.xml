@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.ScreenInboxDetail">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            android:src="@mipmap/back_24" />
+
+        <TextView
+            android:id="@+id/txt_center_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Request"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+        <ImageView
+            android:id="@+id/img_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            android:src="@mipmap/setting_24" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scroll_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_from_wall_10dp"
+                    android:background="@color/white_regular"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/rel_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:background="@color/white_regular"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+
+                        <TextView
+                            android:id="@+id/txt_pickup_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                            android:drawableLeft="@mipmap/maker_blue_18"
+                            android:drawablePadding="@dimen/margin_from_wall_8dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left"
+                            android:text="Chandigarh"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:id="@+id/txt_pickup_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt_pickup_city"
+                            android:layout_alignLeft="@+id/txt_pickup_city"
+                            android:layout_marginLeft="@dimen/margin_from_wall_24dp"
+                            android:layout_marginTop="@dimen/margin_from_wall_4dp"
+                            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                            android:drawablePadding="@dimen/margin_from_wall_8dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left|center"
+                            android:singleLine="true"
+                            android:text="Chandigarh, India"
+                            android:textColor="@color/gray_d"
+                            android:textSize="@dimen/text_size_13sp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                        android:background="@color/white_regular"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+
+                        <TextView
+                            android:id="@+id/txt_drop_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                            android:drawableLeft="@mipmap/marker_green_18"
+                            android:drawablePadding="@dimen/margin_from_wall_8dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left"
+                            android:text="Ludhiana"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:id="@+id/txt_drop_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt_drop_city"
+                            android:layout_alignLeft="@+id/txt_drop_city"
+                            android:layout_marginLeft="@dimen/margin_from_wall_24dp"
+                            android:layout_marginTop="@dimen/margin_from_wall_4dp"
+                            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                            android:drawablePadding="@dimen/margin_from_wall_8dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left|center"
+                            android:singleLine="true"
+                            android:text="Ludhian, Punjab, India"
+                            android:textColor="@color/gray_d"
+                            android:textSize="@dimen/text_size_13sp" />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_24dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+
+                    <TextView
+                        android:id="@+id/txt_date_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawableLeft="@mipmap/cal"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/med"
+                        android:text="Sun, Aug 25 at 10:15"
+                        android:textColor="@color/gray_d"
+                        android:textSize="@dimen/text_size_15sp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/txt_seats_required"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_date_drop"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_4dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawableLeft="@mipmap/seat_18"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:text="1 Seat required"
+                        android:textColor="@color/gray_d"
+                        android:textSize="@dimen/text_size_15sp"
+                        android:visibility="visible" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_24dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <TextView
+                        android:id="@+id/txt_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_name_user"
+                        android:layout_alignStart="@+id/txt_name_user"
+                        android:layout_alignLeft="@+id/txt_name_user"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:singleLine="false"
+                        android:text="Pickup and drop-off in Markham. No pets and oder of any kind. Would like to have phone conversation before booking. Identification required."
+                        android:textColor="@color/gray_d"
+                        android:textSize="@dimen/text_size_15sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <RelativeLayout
+                        android:id="@+id/rel_root_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_from_wall_10dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                        android:layout_marginBottom="@dimen/margin_from_wall_16dp"
+                        android:background="@color/white_regular"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_user"
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:src="@drawable/profile_img"
+                            app:civ_border_color="@color/colorPrimary"
+                            app:civ_border_width="@dimen/margin_from_wall_2dp" />
+
+                        <TextView
+                            android:id="@+id/txt_name_user"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                            android:layout_toRightOf="@+id/img_user"
+                            android:fontFamily="@font/regular"
+                            android:gravity="left"
+                            android:text="Sneha Sharma passenger"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

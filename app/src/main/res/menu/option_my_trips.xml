@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option_route"
+        android:icon="@drawable/ic_route"
+        android:title="@string/route"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/option_edit_trip"
+        android:title="@string/edit_trip" />
+
+ <item
+        android:id="@+id/option_edit_price"
+        android:title="@string/edit_price" />
+
+    <item
+        android:id="@+id/option_mark_as_complete"
+        android:title="@string/mark_as_complete" />
+
+    <item
+        android:id="@+id/option_cancel_trip"
+        android:title="@string/cancel_trip" />
+
+    <item
+        android:id="@+id/option_share_trip"
+        android:title="@string/share_trip" />
+
+
+</menu>

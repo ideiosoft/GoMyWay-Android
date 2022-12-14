@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1021739036874",
+    "firebase_url": "https://gomywayride-1569210568504.firebaseio.com",
+    "project_id": "gomywayride-1569210568504",
+    "storage_bucket": "gomywayride-1569210568504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021739036874:android:6cf61cce00b45349670433",
+        "android_client_info": {
+          "package_name": "ssc.snow.app.gomyways"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021739036874-u5nnafiu9avjavb21oc8p4cp8n4f7fk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEW7BMEr1O-R7e2a4L8rE6NZXz5OYNqiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021739036874-u5nnafiu9avjavb21oc8p4cp8n4f7fk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

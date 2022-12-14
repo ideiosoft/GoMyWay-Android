@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.ScreenInboxDetail">
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            android:src="@mipmap/back_24" />
+
+        <TextView
+            android:id="@+id/txt_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/margin_from_wall_8dp"
+            android:layout_marginTop="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:layout_marginBottom="@dimen/margin_from_wall_8dp"
+            android:clickable="true"
+            android:fontFamily="@font/med"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingTop="@dimen/margin_from_wall_4dp"
+
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:paddingBottom="@dimen/margin_from_wall_4dp"
+            android:text="Search Results"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_post_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp"
+            android:background="@color/white_regular"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_from_wall_10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/car_36" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chandigarh to Ludhiana"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Post a request"
+                    android:textSize="@dimen/text_size_13sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@mipmap/plus_24"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_13sp" />
+
+
+        </LinearLayout>
+
+
+        <!-- our tablayout to display tabs  -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_from_wall_8dp"
+            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+            android:background="@color/white_regular"
+            android:minHeight="?attr/actionBarSize"
+            app:tabGravity="fill"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            app:tabTextColor="@color/color_black_595959" />
+
+        <!-- View pager to swipe views -->
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_8dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

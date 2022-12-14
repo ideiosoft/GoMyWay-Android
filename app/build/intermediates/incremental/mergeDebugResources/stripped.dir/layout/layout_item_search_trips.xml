@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_4dp"
+    android:layout_marginTop="@dimen/margin_4dp"
+    android:layout_marginRight="@dimen/margin_4dp"
+    android:layout_marginBottom="@dimen/margin_4dp"
+    app:cardCornerRadius="@dimen/margin_4dp"
+    app:cardElevation="@dimen/margin_4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_4dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_regular"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+            <TextView
+                android:id="@+id/txt_outer_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_4dp"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:layout_marginRight="@dimen/margin_from_wall_2dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/med"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/color_black_595959"
+                android:textSize="@dimen/text_size_15sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@android:style/Widget.DeviceDefault.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:progressTint="@color/colorPrimary"
+                android:rating="0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:background="@color/gray_btn_bg_color" />
+
+        <LinearLayout
+            android:id="@+id/ll_root_clickable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_regular"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:background="@color/white_regular"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+                <TextView
+                    android:id="@+id/txt_seat_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Seats left"
+                    android:textColor="@color/black_regular"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_review_count"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="Reviews:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size_15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:background="@color/white_regular"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+                <TextView
+                    android:id="@+id/txt_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:drawableLeft="@mipmap/maker_blue_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="left"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_source_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_from_wall_4dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Chandigarh, India"
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@color/white_regular"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/margin_from_wall_8dp">
+
+                <TextView
+                    android:id="@+id/txt_destination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:drawableLeft="@mipmap/marker_green_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/med"
+                    android:gravity="left"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_destination_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_from_wall_4dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Ludhiana, Punjab, India"
+                    android:textColor="@color/color_black_595959"
+                    android:textSize="@dimen/text_size_15sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="@dimen/margin_from_wall_16dp"
+                android:background="@color/gray_btn_bg_color" />
+
+            <RelativeLayout
+                android:id="@+id/rel_root_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_from_wall_10dp"
+                android:layout_marginTop="@dimen/margin_from_wall_10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:background="@color/white_regular"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/a"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="@dimen/margin_from_wall_1dp" />
+
+                <TextView
+                    android:id="@+id/txt_name_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_2dp"
+                    android:layout_toRightOf="@+id/img_user"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text=""
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_15sp" />
+
+                <TextView
+                    android:id="@+id/txt_view_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/solid_round_gray"
+                    android:clickable="true"
+                    android:fontFamily="@font/med"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:paddingLeft="@dimen/margin_from_wall_16dp"
+                    android:paddingTop="@dimen/margin_from_wall_4dp"
+                    android:paddingRight="@dimen/margin_from_wall_16dp"
+                    android:paddingBottom="@dimen/margin_from_wall_4dp"
+                    android:text="View detail"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_size_15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+

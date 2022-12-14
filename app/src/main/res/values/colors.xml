@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff4f02</color>
+    <color name="colorPrimaryDark">#ff4f02</color>
+    <color name="colorAccent">#ff4f02</color>
+
+
+    <color name="colorPrimaryGradiantTop">#89fdac</color>
+    <color name="colorPrimaryGradiantDown">#88f2fb</color>
+
+    <color name="promo_bg">#51ff4f02</color>
+    <color name="hint_text_clr">#746F6F</color>
+    <color name="white_regular">#fff</color>
+    <color name="txt_clr">#565656</color>
+    <color name="black_regular">#000</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="grey">#ccc</color>
+    <color name="blue">#3C54E4</color>
+    <color name="grey_light">#F5F5F5</color>
+    <color name="grey_bg_clr">#f1f3f5</color>
+    <color name="star_clr">#f38b2f</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="gray">#d7d7d7</color>
+
+    <color name="green">#0AAF92</color>
+
+    <color name="bg_color">#f5f5f3</color>
+
+    <color name="color_chat_bubble_blue">#9900BDEC</color>
+    <color name="gray_d">#FF8B8B8B</color>
+    <color name="color_heading_round">#EDF2F6</color>
+    <color name="color_transparent">#00ffffff</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_light">#15b3e1</color>
+    <color name="color_yellow">#fecd08</color>
+    <color name="color_facebook">#17325e</color>
+    <color name="color_orange_gradient_1">#ff5b00</color>
+    <color name="color_orange_gradient_2">#ffa300</color>
+    <color name="color_blue">#426ad9</color>
+    <color name="color_green">#00E65D</color>
+
+    <color name="color_textfield_bd">#007CB4</color>
+    <color name="color_textfield_border">#1094C7</color>
+    <color name="color_white_opaque">#90ffffff</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_black_opaque">#222222</color>
+    <color name="color_black_959595">#959595</color>
+    <color name="color_black_595959">#595959</color>
+
+    <color name="color_bg_gray">#E9E9E9</color>
+    <color name="color_bg_brands">#f2f2f2</color>
+    <color name="color_blue_dark_bg_heading">#01327d</color>
+    <color name="color_ready_bg_header">#0066ff</color>
+
+    <color name="color_1_gray">#86899a</color>
+    <color name="color_blue_opaque">#30000000</color>
+
+    <color name="color_text_d0d0d0">#d0d0d0</color>
+    <color name="color_headerinstagram_screen">#8000bc</color>
+    <color name="color_headerfacebook_screen">#FF41447B</color>
+
+    <color name="color_google_header_screen">#3659A0</color>
+    <color name="light_bg">#E3F9F5</color>
+
+
+</resources>

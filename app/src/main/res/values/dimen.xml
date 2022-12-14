@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_from_wall_8dp">8dp</dimen>
+    <dimen name="margin_from_wall_10dp">10dp</dimen>
+    <dimen name="margin_from_wall_16dp">16dp</dimen>
+    <dimen name="margin_from_wall_20dp">20dp</dimen>
+    <dimen name="margin_from_wall_24dp">24dp</dimen>
+    <dimen name="margin_from_wall_32dp">32dp</dimen>
+    <dimen name="margin_from_wall_48">48dp</dimen>
+    <dimen name="margin_from_wall_4dp">4dp</dimen>
+    <dimen name="margin_from_wall_2dp">2dp</dimen>
+    <dimen name="margin_from_wall_1dp">1dp</dimen>
+
+    <dimen name="elevation_toolbar">6dp</dimen>
+    <dimen name="elevation_button">6dp</dimen>
+
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_17sp">17sp</dimen>
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="text_size_21sp">21sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_11sp">11sp</dimen>
+    <dimen name="text_size_9sp">9sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_5sp">5sp</dimen>
+
+    <dimen name="big_margin">32dp</dimen>
+    <dimen name="extra_margin">64dp</dimen>
+    <dimen name="med_padding">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="btn_padding">13dp</dimen>
+    <dimen name="extra_small">5dp</dimen>
+    <dimen name="normal_padding">8dp</dimen>
+    <dimen name="normal_text">17sp</dimen>
+    <dimen name="big_text">25sp</dimen>
+    <dimen name="med_text">21sp</dimen>
+    <dimen name="small_txt">12sp</dimen>
+    <dimen name="extra_small_txt">11sp</dimen>
+    <dimen name="negative_margin_big">-30dp</dimen>
+    <dimen name="xbig_margin">80dp</dimen>
+
+
+
+
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_26dp">26dp</dimen>
+    <dimen name="margin_28dp">28dp</dimen>
+    <dimen name="margin_neg_24dp">-40dp</dimen>
+    <dimen name="margin_half">.5dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_44dp">44dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_58dp">58dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+
+    <!-- Bottom sheet dimens -->
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+
+
+
+</resources>

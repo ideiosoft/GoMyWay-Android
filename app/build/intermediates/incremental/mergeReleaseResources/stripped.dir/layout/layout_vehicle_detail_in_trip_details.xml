@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/square_stroke_edt_"
+    android:padding="@dimen/margin_6dp">
+
+    <ImageView
+        android:id="@+id/img_center_car"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/car_v" />
+
+
+    <TextView
+        android:id="@+id/txt_name_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/med"
+        android:gravity="left"
+        android:text="Blenoo suzuki"
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_15sp" />
+
+    <TextView
+        android:id="@+id/txt_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_car"
+        android:fontFamily="@font/med"
+        android:gravity="center"
+        android:text="@string/vehicle_model"
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_model_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_car"
+        android:layout_marginLeft="@dimen/margin_6dp"
+        android:layout_toRightOf="@+id/txt_model"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_vehicle_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_model"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:fontFamily="@font/med"
+        android:gravity="center"
+        android:text="@string/vehicle_type"
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_vehicle_type_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_model"
+        android:layout_marginLeft="@dimen/margin_6dp"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_toRightOf="@+id/txt_model"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/square_round_stroke_primary"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_2dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/med"
+            android:gravity="center"
+            android:padding="@dimen/margin_4dp"
+            android:text="@string/plate"
+            android:textColor="@color/white_regular"
+            android:textSize="@dimen/text_size_11sp" />
+
+        <TextView
+            android:id="@+id/txt_plate_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="right"
+            android:minWidth="55dp"
+            android:padding="@dimen/margin_6dp"
+            android:text=""
+            android:textColor="@color/color_black_opaque"
+            android:textSize="@dimen/text_size_13sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back__"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            app:srcCompat="@drawable/ic_arrow_back_" />
+
+        <TextView
+            android:id="@+id/txt_center_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/med"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Edit Profile"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8dp">
+
+            <ScrollView
+                android:id="@+id/scroll_view_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white_regular"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_8dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_8dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_user_profile"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginRight="-8dp"
+                            android:src="@color/bg_color" />
+
+                        <ImageView
+                            android:id="@+id/img_camera"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/img_user_profile"
+                            android:layout_toRightOf="@+id/img_user_profile"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="@dimen/margin_from_wall_10dp"
+                            app:srcCompat="@drawable/ic_add_a_photo" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_8dp"
+                        android:fontFamily="@font/med"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_4dp"
+                        android:text="Personal Detail"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/text_size_15sp" />
+
+                    <View
+                        android:layout_width="95dp"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/regular"
+                            android:text="First name"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:gravity="left"
+                            android:text="Last name"
+                            android:textColor="@color/color_black_opaque"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edt_first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="@string/first_name"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_last_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="@string/last_name"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/regular"
+                            android:text="Phone No"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:gravity="left"
+                            android:text="Date of birth"
+                            android:textColor="@color/color_black_opaque"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edt_phn_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="@string/phone_no"
+                            android:inputType="phone"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+
+                        <EditText
+                            android:id="@+id/edt_dob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:hint="@string/date_of_birth"
+                            android:inputType="date"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/regular"
+                            android:text="House No"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:gravity="left"
+                            android:text="Street name"
+                            android:textColor="@color/color_black_opaque"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edt_hno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="House no"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <EditText
+                            android:id="@+id/edt_streetname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="Street name"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/regular"
+                            android:text="City name"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:gravity="left"
+                            android:text="State name"
+                            android:textColor="@color/color_black_opaque"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edt_cityname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:hint="City name"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/edt_state_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/square_stroke_edt_"
+                            android:clickable="true"
+                            android:drawableRight="@drawable/ccp_down_arrow"
+                            android:focusable="false"
+                            android:hint="Select state"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="@dimen/small_padding"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_4dp"
+                        android:text="@string/about"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/text_size_13sp" />
+
+
+                    <EditText
+                        android:id="@+id/edt_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/square_stroke_edt_"
+                        android:gravity="left"
+                        android:hint="@string/about"
+                        android:inputType="textMultiLine"
+                        android:padding="@dimen/padding_5sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_15sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_4dp"
+                        android:text="@string/gender"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/text_size_15sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio_male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male"
+                            android:textColor="@color/color_black_opaque" />
+
+                        <RadioButton
+                            android:id="@+id/radio_female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_from_wall_8dp"
+                            android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                            android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                            android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                            android:text="@string/female"
+                            android:textColor="@color/color_black_opaque" />
+
+                        <RadioButton
+                            android:id="@+id/radio_other"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Other"
+                            android:textColor="@color/color_black_opaque" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left"
+                        android:padding="@dimen/margin_4dp"
+                        android:text="Paystack Secret Key(To withdraw money from wallet):"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/text_size_13sp"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/edt_paystack_"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/square_stroke_edt_"
+                        android:gravity="left"
+                        android:hint="*******"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:padding="@dimen/small_padding"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_15sp"
+                        android:visibility="gone" />
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/med"
+                        android:layoutDirection="inherit"
+                        android:padding="@dimen/margin_from_wall_8dp"
+                        android:text="I am Driver   " />
+
+
+                    <TextView
+                        android:id="@+id/btn_update_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_16dp"
+                        android:background="@drawable/square_solid_red"
+                        android:paddingLeft="@dimen/margin_16dp"
+                        android:paddingRight="@dimen/margin_16dp"
+                        android:text="@string/update_profile"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_17sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <include
+                        android:id="@+id/root_ll"
+                        layout="@layout/layout_add_vehicle_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/regular"
+                            android:padding="@dimen/margin_4dp"
+                            android:text="@string/vehicle"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                        <TextView
+                            android:id="@+id/txt_add_vehicle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:fontFamily="@font/regular"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:gravity="right"
+                            android:padding="@dimen/margin_4dp"
+                            android:text="+ Add vehicle"
+                            android:textColor="@color/color_black_opaque"
+                            android:textSize="@dimen/text_size_15sp" />
+
+                    </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycle_vehicle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

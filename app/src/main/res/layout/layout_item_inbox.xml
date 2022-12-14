@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel_root_"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+    android:background="@color/white_regular"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_user"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:src="@drawable/a"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_from_wall_8dp"
+        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+        android:layout_toStartOf="@+id/txt_time"
+        android:layout_toLeftOf="@+id/txt_time"
+        android:layout_toEndOf="@+id/img_user"
+        android:layout_toRightOf="@+id/img_user"
+        android:fontFamily="@font/regular"
+        android:gravity="left"
+        android:text=""
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/text_size_15sp" />
+
+    <TextView
+        android:id="@+id/textView_unread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_time"
+        android:layout_alignEnd="@+id/txt_time"
+        android:layout_alignRight="@+id/txt_time"
+        android:layout_marginStart="@dimen/margin_from_wall_10dp"
+        android:layout_marginLeft="@dimen/margin_from_wall_10dp"
+        android:layout_marginTop="@dimen/margin_from_wall_4dp"
+        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+        android:background="@drawable/circle_message_unread"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:textColor="@color/color_white"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_grp_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignStart="@+id/txt_name"
+        android:layout_alignLeft="@+id/txt_name"
+        android:layout_marginTop="@dimen/margin_2dp"
+        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+        android:layout_toStartOf="@+id/txt_time"
+        android:layout_toLeftOf="@+id/txt_time"
+        android:drawablePadding="@dimen/margin_from_wall_8dp"
+        android:fontFamily="@font/regular"
+        android:gravity="left|center"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/gray_d"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_11sp"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/img_user"
+        android:layout_alignEnd="@+id/txt_time"
+        android:layout_alignRight="@+id/txt_time"
+        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+        android:background="@color/grey" />
+
+
+</RelativeLayout>

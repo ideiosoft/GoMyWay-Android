@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_4dp"
+    android:background="@drawable/square_stroke_edt_"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="@dimen/margin_6dp">
+
+    <ImageView
+        android:id="@+id/img_center_car"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car_v"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/margin_from_wall_8dp"
+        android:src="@drawable/delete_btn_24" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_cars"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/img_del"
+        android:layout_centerHorizontal="true">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <me.relex.circleindicator.CircleIndicator3
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_from_wall_24dp"
+            android:layout_alignStart="@+id/view_pager2"
+            android:layout_alignLeft="@+id/view_pager2"
+            android:layout_alignEnd="@+id/view_pager2"
+            android:layout_alignRight="@+id/view_pager2"
+            android:layout_alignBottom="@+id/view_pager2" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txt_name_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_cars"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_6dp"
+        android:fontFamily="@font/regular"
+        android:gravity="left"
+        android:padding="@dimen/margin_4dp"
+        android:text=""
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_car"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:fontFamily="@font/med"
+        android:gravity="center"
+        android:text="@string/vehicle_model"
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_model_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_car"
+        android:layout_marginLeft="@dimen/margin_6dp"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_toRightOf="@+id/txt_model"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_vehicle_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_model"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:fontFamily="@font/med"
+        android:gravity="center"
+        android:text="@string/vehicle_type"
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <TextView
+        android:id="@+id/txt_vehicle_type_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_model"
+        android:layout_marginLeft="@dimen/margin_6dp"
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_toRightOf="@+id/txt_model"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/color_black_opaque"
+        android:textSize="@dimen/text_size_13sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name_car"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/square_round_stroke_primary"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_2dp"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/med"
+            android:gravity="center"
+            android:padding="@dimen/margin_4dp"
+            android:text="@string/plate"
+            android:textColor="@color/white_regular"
+            android:textSize="@dimen/text_size_11sp" />
+
+        <TextView
+            android:id="@+id/txt_add_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="right"
+            android:minWidth="55dp"
+            android:padding="@dimen/margin_6dp"
+            android:text=""
+            android:textColor="@color/color_black_opaque"
+            android:textSize="@dimen/text_size_13sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

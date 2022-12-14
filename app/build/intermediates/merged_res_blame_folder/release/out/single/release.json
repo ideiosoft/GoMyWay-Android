@@ -1,0 +1,1366 @@
+[
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_forgot_password.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_stroke_with_red_bg.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_stroke_with_red_bg.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_fiber_manual_record_gray_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_fiber_manual_record_gray_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_id_card24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/id_card24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_car_v.jpg.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/car_v.jpg"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_plus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/plus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_cycle_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/cycle_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_bottom_bg_home.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/bottom_bg_home.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_more_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/more_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_minus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/minus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_plus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/plus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_fiber_manual_record_black_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_fiber_manual_record_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_delete_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/delete_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_cycle_7.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/cycle_7.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_cycle_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/cycle_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_app_icon_48.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/app_icon_48.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_maker_blue_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/maker_blue_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_id_card24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/id_card24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_cycle_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/cycle_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_more_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/more_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_mlogo.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/mlogo.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_route.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_route.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_notification_in_menu.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_notification_in_menu.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_recent.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_recent.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_rides.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_rides.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_view_trip.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_view_trip.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_sneha.jpeg.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/sneha.jpeg"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_file_copy_24px.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_file_copy_24px.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_edit_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/edit_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_solid_red.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_solid_red.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_car_gray_72.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/car_gray_72.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_maker_blue_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/maker_blue_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_setting_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/setting_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_round_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/round_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/font_regular.ttf.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/font/regular.ttf"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_cross_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/cross_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_delete_btn_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/delete_btn_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_search_result.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_search_result.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_login.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_login.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_single_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/single_user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_atm_24px.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_atm_24px.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_cross.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/cross.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_message_24_orange.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/message_24_orange.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_delete_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/delete_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_offers.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_offers.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_blue.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_blue.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_slide_up.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_my_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_my_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_toolbar_email.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/toolbar_email.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_about.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_about.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_recent_rides.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_recent_rides.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_call_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/call_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_car_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/car_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_id_verification.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_id_verification.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_marker_green_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/marker_green_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_stroke_round_gray.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/stroke_round_gray.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_right.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/right.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_gray_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_gray_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_bag_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/bag_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_stroke.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_stroke.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_logo_200.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-anydpi-v26/logo_200.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_snowboard.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_snowboard.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_cross_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/cross_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_check_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/check_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_request_received.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_request_received.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_recent_searches.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_recent_searches.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_more_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/more_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_notifications.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_notifications.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_search_detail_trip.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_search_detail_trip.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_bag_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/bag_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_stroke_edt_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_stroke_edt_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_paw_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/paw_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_help.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_help.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_app_icon_48.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/app_icon_48.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_plus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/plus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_fragment_notification.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_fragment_notification.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_delete_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/delete_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_arrow_back_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_arrow_back_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_paw_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/paw_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_arrow_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/arrow_right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_ban_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/ban_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_terms_screen.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/terms_screen.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_emails_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_emails_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_driver.jpg.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/driver.jpg"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_pull_in_right.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/pull_in_right.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_my_ride_detail.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_my_ride_detail.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_user_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/user_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_setting_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/setting_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_post_atrip.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_post_atrip.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_arrow_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/arrow_right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_paw_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/paw_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_maker_blue_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/maker_blue_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_cycle_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/cycle_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_cross_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/cross_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_setting_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/setting_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_message_gray_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/message_gray_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_mlogo_white.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/mlogo_white.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_badge_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/badge_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_bounce.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_upcomg_and_recent_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_upcomg_and_recent_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request3.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request3.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_inbox_chat.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_inbox_chat.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_payments_in_menu.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_payments_in_menu.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_card_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/card_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_message_gray_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/message_gray_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_black_stroke_square.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/black_stroke_square.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_round_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/round_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_cancel_black_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_cancel_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_delete_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/delete_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_gray.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_gray.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_car_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/car_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_email_address.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_email_address.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_single_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/single_user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_user_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/user_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_login_bg.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/login_bg.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_slide_up_dialog.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/slide_up_dialog.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_push_out_left.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/push_out_left.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_noti_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/noti_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_paw_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/paw_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_google_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/google_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_facebook_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/facebook_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_bg.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/bg.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_bag_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/bag_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_noti_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/noti_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_minus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/minus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_search_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/search_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_chat_baloon_blue.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/chat_baloon_blue.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_car_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/car_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_slide_out_down.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_auto_complete.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_auto_complete.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_toolbar_child.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/toolbar_child.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_call_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/call_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_cycle_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/cycle_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_bag_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/bag_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_car_gray_48.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/car_gray_48.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_marker_green_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/marker_green_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_grey_divider.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/grey_divider.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_switch_green.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/switch_green.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_loyality_24px.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_loyality_24px.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_id_card24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/id_card24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_pull_in_left.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/pull_in_left.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_seat_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/seat_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_round_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/round_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_post_or_request_trip.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_post_or_request_trip.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_car_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/car_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_round_stroke_primary.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_round_stroke_primary.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request2.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request2.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_search_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/search_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_card_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/card_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_more_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/more_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_enter_mobile_number.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_enter_mobile_number.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_round_stroke_edt_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/round_stroke_edt_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_cycle_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/cycle_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_stroke_dotted_lines.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/stroke_dotted_lines.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_request_setting.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_request_setting.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_solid_chat.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_solid_chat.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_call_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/call_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_minus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/minus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_wallet.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_wallet.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_bg_bottom_sheet.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/bg_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_square_stroke_primary.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/square_stroke_primary.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_paw_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/paw_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_bag_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/bag_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_seat_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/seat_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_help.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_help.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_search_ride.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_search_ride.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_trip_map_view_with_direction.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_trip_map_view_with_direction.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_bg_rewards.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/bg_rewards.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_bag_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/bag_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_check.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/check.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_ban_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/ban_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request6.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request6.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_check_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/check_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_cal.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/cal.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_call_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/call_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_check_30.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/check_30.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_badge_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/badge_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_drawer_item.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/drawer_item.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_profile.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_profile.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_google_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/google_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/menu_option_my_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/menu/option_my_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_post_a_request.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_post_a_request.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_menu.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_menu.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_add_a_photo.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_add_a_photo.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/font_med.ttf.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/font/med.ttf"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_send_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/send_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_roundimg.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/roundimg.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_to_middle.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/to_middle.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_logo_top.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/logo_top.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_car_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/car_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_write_review.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_write_review.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_a.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/a.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_share_24px.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_share_24px.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_tick_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/tick_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_screen_search_ride_result.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/screen_search_ride_result.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_tick_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/tick_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_my_rides.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_my_rides.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_bag_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/bag_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_edit.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/edit.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_car_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/car_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_plus_24_blue.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/plus_24_blue.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_car_orange_72.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/car_orange_72.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_tick_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/tick_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_delete.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/delete.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_send_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/send_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_paw_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/paw_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_bottom_down.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/bottom_down.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_tyre.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_tyre.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request4.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request4.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_car_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/car_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_call_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/call_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_paw_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/paw_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_seat_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/seat_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_chat_baloon_gray.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/chat_baloon_gray.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_circle_message_unread.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/circle_message_unread.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_bank_details.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_bank_details.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_round_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/round_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_round_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/round_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_inbox.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_inbox.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_search_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/search_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_card_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/card_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_vehicles.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_vehicles.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_profile_img.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/profile_img.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_check_without_bg.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/check_without_bg.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_marker_green_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/marker_green_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_seat_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/seat_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_check_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/check_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_rewards.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_rewards.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_screen_home.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/screen_home.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_badge_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/badge_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_row_upcoming_requests.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/row_upcoming_requests.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_bottom_up.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/bottom_up.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_primary.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_primary.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_plus_24_blue.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/plus_24_blue.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_edit_posted_trip.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_edit_posted_trip.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/font_light.ttf.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/font/light.ttf"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_edit_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/edit_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_arrow_forward.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_seat_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/seat_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_payouts.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_payouts.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_ban_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/ban_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_edit_profile.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_round_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/round_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_all.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_all.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_marker_green_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/marker_green_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_save_cards.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_save_cards.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_primary_less.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_primary_less.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_shake.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/shake.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_seat_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/seat_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_more_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/more_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_cal.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/cal.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_drop_single_item.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_drop_single_item.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_minus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/minus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_from_middle.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/from_middle.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_push_out_right.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/push_out_right.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_goole.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_goole.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_plus_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/plus_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_ic_write_chat.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/ic_write_chat.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_user_orange_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/user_orange_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_delete_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/delete_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_recent_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_recent_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_otp_screen.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/otp_screen.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_toolbar_.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/toolbar_.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_message.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_message.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_delete_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/delete_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_driver_100.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/driver_100.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_search_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_search_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_card_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/card_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_edit_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/edit_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_inbox_detail.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_inbox_detail.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_card_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/card_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_logo_white.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/logo_white.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_add_vehicle_info.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_add_vehicle_info.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_row_rewards.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_row_rewards.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_back_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/back_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_row_view_pager.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/row_view_pager.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_single_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/single_user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/anim_slide_down.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_offers.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_offers.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_request_posted.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_request_posted.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_requests.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_requests.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_passenger_100.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/passenger_100.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_noti_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/noti_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_message_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/message_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_white.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_white.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_seat_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/seat_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_screen_home_content.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/screen_home_content.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_back_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/back_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_user_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/user_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_card_36.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/card_36.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ban_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xxhdpi/ban_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_plus_24_blue.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/plus_24_blue.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-xhdpi_app_icon_48.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-xhdpi/app_icon_48.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_more_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/more_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_vehicle_detail_in_trip_details.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_vehicle_detail_in_trip_details.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_fragment_upcoming.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/fragment_upcoming.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_toolbar_profile.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/toolbar_profile.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_message_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/message_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_vehiclelistview1.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/vehiclelistview1.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_facebook_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/facebook_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_maker_blue_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/maker_blue_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_layout_item_received_requests_on_my_trips.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/layout_item_received_requests_on_my_trips.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_message_24_orange.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/message_24_orange.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_send_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/send_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_map.jpg.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/map.jpg"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-hdpi_edit_18.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-hdpi/edit_18.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_arrow_right_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/arrow_right_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_solid_round_green.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/solid_round_green.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_register.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_register.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_screen_book_to_request5.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_screen_book_to_request5.xml"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/mipmap-mdpi_message_24.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/mipmap-mdpi/message_24.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/drawable_badge.png.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/drawable/badge.png"
+    },
+    {
+        "merged": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/build/intermediates/res/merged/release/layout_activity_logged_in_after_signup.xml.flat",
+        "source": "/Users/gauravhasija/Git_Ideiosoft/GoMyWay/GoMyWays/app/src/main/res/layout/activity_logged_in_after_signup.xml"
+    }
+]

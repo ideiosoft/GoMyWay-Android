@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.home.controler.ScreenInboxDetail">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_from_wall_48"
+
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/margin_from_wall_10dp"
+            android:src="@mipmap/back_24" />
+
+        <TextView
+            android:id="@+id/txt_center_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/regular"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:text="Trip Details"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_15sp"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_top_right_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin_from_wall_8dp"
+            android:background="@drawable/solid_round_gray_"
+            android:clickable="true"
+            android:fontFamily="@font/regular"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingLeft="@dimen/margin_from_wall_16dp"
+            android:paddingTop="@dimen/margin_from_wall_4dp"
+            android:paddingRight="@dimen/margin_from_wall_16dp"
+            android:paddingBottom="@dimen/margin_from_wall_4dp"
+            android:text="Next"
+            android:textColor="@color/black_regular"
+            android:textSize="@dimen/text_size_13sp"
+
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_top"
+        android:background="@color/grey_bg_clr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_from_wall_10dp"
+                android:background="@color/white_regular"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/med"
+                    android:gravity="left"
+                    android:padding="@dimen/small_padding"
+                    android:text="Review the driver's preferences"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_17sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                    android:background="@color/gray_btn_bg_color" />
+
+                <TextView
+                    android:id="@+id/txt_max_2_people"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+
+
+                    android:drawableLeft="@mipmap/seat_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+
+
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+
+
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Max 2 people in the back"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <TextView
+                    android:id="@+id/txt_medim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+
+                    android:drawableLeft="@mipmap/bag_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Medium Luggage ok"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <TextView
+                    android:id="@+id/txt_bike"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+
+                    android:drawableLeft="@mipmap/cycle_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Bikes"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_13sp" />
+
+                <TextView
+                    android:id="@+id/txt_pets"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                    android:layout_marginRight="@dimen/margin_from_wall_8dp"
+
+                    android:drawableLeft="@mipmap/paw_18"
+                    android:drawablePadding="@dimen/margin_from_wall_8dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="left"
+                    android:text="Pets"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/text_size_13sp" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rel_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                    android:background="@color/white_regular"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <View
+                        android:id="@+id/last_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:layout_above="@+id/txt_source_to_destination"
+                        android:layout_marginBottom="@dimen/margin_from_wall_8dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <TextView
+                        android:id="@+id/txt_source_to_destination"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txt_date_time_source_destination"
+                        android:layout_marginStart="@dimen/margin_from_wall_8dp"
+                        android:layout_marginLeft="@dimen/margin_from_wall_8dp"
+                        android:layout_marginTop="@dimen/margin_from_wall_8dp"
+                        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left"
+                        android:text="chandigarh to Ludhiana"
+                        android:textColor="@color/color_black"
+                        android:textSize="@dimen/text_size_15sp" />
+
+                    <TextView
+                        android:id="@+id/txt_date_time_source_destination"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/txt_source_to_destination"
+                        android:layout_alignLeft="@+id/txt_source_to_destination"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="@dimen/margin_from_wall_4dp"
+                        android:layout_marginEnd="@dimen/margin_from_wall_8dp"
+                        android:layout_marginRight="@dimen/margin_from_wall_8dp"
+                        android:layout_marginBottom="@dimen/margin_from_wall_8dp"
+                        android:drawablePadding="@dimen/margin_from_wall_8dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="left|center"
+                        android:singleLine="true"
+                        android:text="Sun, August 25 at 12:00pm"
+                        android:textColor="@color/gray_d"
+                        android:textSize="@dimen/text_size_13sp" />
+
+                    <TextView
+                        android:id="@+id/txt_next_bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/last_line"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/margin_from_wall_16dp"
+                        android:layout_marginBottom="@dimen/margin_from_wall_10dp"
+                        android:background="@drawable/solid_round_primary"
+                        android:fontFamily="@font/regular"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/margin_from_wall_24dp"
+                        android:paddingTop="@dimen/margin_from_wall_4dp"
+                        android:paddingRight="@dimen/margin_from_wall_24dp"
+                        android:paddingBottom="@dimen/margin_from_wall_4dp"
+                        android:text="Next"
+                        android:textColor="@color/color_white"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
